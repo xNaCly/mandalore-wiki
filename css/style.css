@@ -1,0 +1,80 @@
+:root {
+	--color-gray-100: #f8f9fc;
+	--color-gray-200: #f1f3f9;
+	--color-gray-300: #dee3ed;
+	--color-gray-400: #c2c9d6;
+	--color-gray-500: #8f96a3;
+	--color-gray-600: #5e636e;
+	--color-gray-700: #2f3237;
+	--color-gray-800: #1d1e20;
+	--color-gray-900: #111213;
+	--color-accent: yellow;
+}
+
+body {
+	color: var(--color-gray-100);
+	background-color: var(--color-gray-900);
+	font-family: -apple-system, "IBM Plex Sans", BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans",
+		"Helvetica Neue", sans-serif;
+}
+
+.gray-100 {
+	color: var(--color-gray-100);
+}
+.gray-200 {
+	color: var(--color-gray-200);
+}
+.gray-300 {
+	color: var(--color-gray-300);
+}
+.gray-400 {
+	color: var(--color-gray-400);
+}
+.gray-500 {
+	color: var(--color-gray-500);
+}
+.gray-600 {
+	color: var(--color-gray-600);
+}
+.gray-700 {
+	color: var(--color-gray-700);
+}
+.gray-800 {
+	color: var(--color-gray-800);
+}
+.gray-900 {
+	color: var(--color-gray-900);
+}
+.bg-gray-100 {
+	background-color: var(--color-gray-100);
+}
+.bg-gray-200 {
+	background-color: var(--color-gray-200);
+}
+.bg-gray-300 {
+	background-color: var(--color-gray-300);
+}
+.bg-gray-400 {
+	background-color: var(--color-gray-400);
+}
+.bg-gray-500 {
+	background-color: var(--color-gray-500);
+}
+.bg-gray-600 {
+	background-color: var(--color-gray-600);
+}
+.bg-gray-700 {
+	background-color: var(--color-gray-700);
+}
+.bg-gray-800 {
+	background-color: var(--color-gray-800);
+}
+.bg-gray-900 {
+	background-color: var(--color-gray-900);
+}
+.ft-italic {
+	font-style: italic;
+}
+.ft-bold {
+	font-weight: bold;
+}
