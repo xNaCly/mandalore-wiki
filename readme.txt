@@ -5,12 +5,14 @@
 ################################
 
 Gruppe:
-* 01
+* coole Gruppe
 
 Matrikelnummern:
-* 1234567
-* 1234567
-* 1234567
+* 9197785
+* 8478190
+* 9525469
+* 1823169
+* 2427911
 
 Kontaktadresse bei Problemen (z.B. Ausführung):
 * matteogropp@protonmail.com
