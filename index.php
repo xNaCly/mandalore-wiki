@@ -10,5 +10,6 @@
     include "./php/templates/header.php";
     include "./php/style-showcase.php";
   ?>
+  <a href="./php/clans.php">clans</a>
 </body>
 </html>
