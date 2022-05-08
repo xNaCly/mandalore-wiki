@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Mandalore - 
     <?php 
-        include "./php/util.php";
+        include "./php/util/util.php";
         echo format_title(__FILE__);
     ?>
     </title>
