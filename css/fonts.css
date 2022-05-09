@@ -16,3 +16,9 @@
 	font-weight: normal;
 	font-style: italic;
 }
+@font-face {
+	font-family: "Starjedi";
+	src: url("../assets/fonts/Starjedi/Starjedi.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
