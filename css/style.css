@@ -98,5 +98,6 @@ a{
 	flex-direction: column;
 }
 .error-heading {
-	font-size: 3rem;
+	font-size: 5rem;
+	font-family: "Starjedi";
 }

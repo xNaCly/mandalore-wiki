@@ -13,7 +13,6 @@
 </head>
 <body>
   <?php
-    include "./php/templates/header.php";
     include "./php/style-showcase.php";
   ?>
   <a href="./clans.php">clans</a>
