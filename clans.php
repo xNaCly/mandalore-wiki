@@ -16,5 +16,6 @@
     include "./php/templates/navbar.php";
     ?>
     <h1>Clans</h1>
+    <h3>Clan Fett, Clan Vizsla, Clan Wren, Clan Saxon</h3>
 </body>
 </html>
