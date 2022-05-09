@@ -13,6 +13,9 @@
 </head>
 <body>
   <?php
+    include "./php/templates/navbar.php";
+    include "./php/style-showcase.php";
+    include "./php/style-showcase.php";
     include "./php/style-showcase.php";
   ?>
   <a href="./clans.php">clans</a>

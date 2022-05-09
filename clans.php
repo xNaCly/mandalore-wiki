@@ -12,6 +12,9 @@
     ?>
 </head>
 <body>
+    <?php
+    include "./php/templates/navbar.php";
+    ?>
     <h1>Clans</h1>
 </body>
 </html>
