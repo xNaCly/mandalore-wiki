@@ -12,10 +12,17 @@
 }
 
 body {
+	min-height: 100%;
 	color: var(--color-gray-100);
 	background-color: var(--color-gray-900);
 	font-family: -apple-system, "IBM Plex Sans", BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans",
 		"Helvetica Neue", sans-serif;
+}
+
+a{
+	text-decoration: underline;
+	text-decoration-style: dotted;
+	color: var(--color-gray-100);
 }
 
 .gray-100 {
@@ -72,9 +79,24 @@ body {
 .bg-gray-900 {
 	background-color: var(--color-gray-900);
 }
+/*font overwrites*/
 .ft-italic {
 	font-style: italic;
 }
 .ft-bold {
 	font-weight: bold;
+}
+.container {
+	padding: 2rem;
+	padding-top: 1rem;
+}
+.container-flex{
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.error-heading {
+	font-size: 3rem;
 }
