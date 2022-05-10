@@ -21,7 +21,7 @@ Getestet über:
 * http://localhost/
 
 XAMPP-Version:
-* XAMPP for Windows 8.1.2
+* XAMPP for Windows 8.1.5
 * Apache3 for arch linux btw
 
 Hinweise:
