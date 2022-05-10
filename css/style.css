@@ -11,7 +11,8 @@
 	--color-accent: white;
 }
 
-html, body{
+html,
+body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -25,7 +26,7 @@ body {
 		"Helvetica Neue", sans-serif;
 }
 
-a{
+a {
 	text-decoration: underline;
 	text-decoration-style: dotted;
 	color: var(--color-gray-100);
@@ -92,7 +93,7 @@ a{
 .ft-bold {
 	font-weight: bold;
 }
-nav#navbar{
+nav#navbar {
 	display: flex;
 	align-items: center;
 	background-color: var(--color-gray-800);
@@ -103,7 +104,7 @@ nav#navbar{
 	padding-left: 1rem;
 	/*box-shadow: 0 0 1em var(--color-accent);*/
 	user-select: none;
-    -webkit-user-drag: none;
+	-webkit-user-drag: none;
 }
 nav#navbar * {
 	margin-right: 1rem;
@@ -118,13 +119,12 @@ nav#navbar * {
 }
 nav#navbar *:hover {
 	text-shadow: 0 0 1em var(--color-accent);
-	
 }
 .container {
 	padding: 2rem;
 	padding-top: 1rem;
 }
-.container-flex{
+.container-flex {
 	height: 100%;
 	display: flex;
 	align-items: center;
@@ -135,6 +135,6 @@ nav#navbar *:hover {
 	font-size: 5rem;
 	font-family: "Starjedi";
 }
-.starwars-font{
+.starwars-font {
 	font-family: "Starjedi";
 }
