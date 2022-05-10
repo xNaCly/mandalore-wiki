@@ -18,10 +18,11 @@ Kontaktadresse bei Problemen (z.B. Ausführung):
 * matteogropp@protonmail.com
 
 Getestet über:
-* http://localhost/dhbw/inf21-01-projektname
+* http://localhost/
 
 XAMPP-Version:
 * XAMPP for Windows 8.1.2
+* Apache3 for arch linux btw
 
 Hinweise:
-*
+* ./MANUAL.md für tipps und tricks einsehen
