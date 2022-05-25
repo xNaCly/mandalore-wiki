@@ -138,3 +138,31 @@ nav#navbar *:hover {
 .starwars-font{
 	font-family: "Starjedi";
 }
+.clan-logo{
+	height: 10rem;
+	background-color: var(--color-gray-100);
+}
+.clan-logo-container{
+	display:flex;
+	justify-content: space-between;
+	margin-right: 5rem;
+	margin-left: 5rem;
+}
+.clan-logo-name{
+	font-size: 2rem;
+	text-align: center;
+}
+.clan-logo-subcontainer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.clan-logo-summary-text{
+	background-color: var(--color-gray-700);
+	padding: 2px;
+	width: 200px;
+	border: 2rem;
+	border-radius: 10px;
+	cursor: pointer;
+	margin: 2rem;
+}
