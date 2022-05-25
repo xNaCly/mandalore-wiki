@@ -14,9 +14,6 @@
 </head>
 
 <body>
-  <?php
-  include "../templates/navbar.php"
-  ?>
   <div class="container container-flex">
     <h1 class="error-heading">* 404</h1>
     <h3>Ooops, you've hyperjumped too far into the unknown regions.</h3>
