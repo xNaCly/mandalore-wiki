@@ -16,6 +16,7 @@
 <body>
   <?php
   include "./php/templates/navbar.php";
+  echo gen_navbar(__FILE__);
   ?>
   <h1>Clans</h1>
 </body>
