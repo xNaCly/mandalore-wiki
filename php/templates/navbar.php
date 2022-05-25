@@ -1,6 +1,9 @@
 <?php
 include "../util/util.php";
 
+/**
+ * generates navbar by looping over a defined array of sites and inserting them in the navbar. the current page is given the id 'active'
+ */
 function gen_navbar(string $file_path)
 {
   $navbar1 = "<nav id='navbar'><a class='starwars-font navbar-logo' href='/'>@</a><div class='navbar-link-container'>";
