@@ -1,5 +1,5 @@
 # display custom 404 error page
-ErrorDocument 404 /php/util/notfound.php
+ErrorDocument 404 404.php
 
 # remove *.php from url
 RewriteEngine on
