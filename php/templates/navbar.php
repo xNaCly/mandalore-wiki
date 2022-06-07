@@ -6,7 +6,7 @@ include "../util/util.php";
  */
 function gen_navbar(string $file_path)
 {
-  $navbar1 = "<nav id='navbar'><a class='starwars-font navbar-logo' href='/'>@</a><div class='navbar-link-container'>";
+  $navbar1 = "<nav id='navbar'><a class='starwars-font navbar-logo' href='./'>@</a><div class='navbar-link-container'>";
   $navbar2 = "</div></nav>";
   $sites = array("clans", "history");
 
@@ -17,7 +17,7 @@ function gen_navbar(string $file_path)
       $id = "id='active'";
     }
     $siteUpper = strtoupper($site);
-    $navbar1 = $navbar1 . "<a class='nav-link' $id href='/$site'>$siteUpper</a>";
+    $navbar1 = $navbar1 . "<a class='nav-link' $id href='./$site'>$siteUpper</a>";
   }
 
   return $navbar1 . $navbar2;
