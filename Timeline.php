@@ -200,31 +200,6 @@
         </tr>
       </tbody>
     </table>
-    <!-- <div class="container">
-    <table class="timeline-table">
-      <caption>Legende</caption>
-      <tr>
-        <td class="legende-atc"></td>
-        <td>Star Wars Angriff der Klonkrieger</td>
-      </tr>
-      <tr>
-        <td class="legende-tcw"></td>
-        <td>Star Wars The Clone Wars</td>
-      </tr>
-      <tr>
-        <td class="legende-rebels"></td>
-        <td>Star Wars Rebels</td>
-      </tr>
-      <tr>
-        <td class="legende-mandalorian"></td>
-        <td>Star Wars The Mandalorian</td>
-      </tr>
-      <tr>
-        <td class="legende-bobf"></td>
-        <td>Star Wars Book of Boba Fett</td>
-      </tr>
-    </table>
-  </div> -->
     <div class="container">
       <div class="card-container">
 
@@ -258,7 +233,5 @@
         </article>
       </div>
     </div>
-
-  </div>
   </div>
 </body>
