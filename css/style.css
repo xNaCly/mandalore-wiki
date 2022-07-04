@@ -8,7 +8,7 @@
 	--color-gray-700: #2f3237;
 	--color-gray-800: #1d1e20;
 	--color-gray-900: #111213;
-	--color-accent: red;
+	--color-accent: #7e3ff2;
 	--color-accent-rgb: 255, 0, 0;
 	--border-radius: 0.5rem;
 	--spacing: 0.5;
@@ -35,7 +35,9 @@ a {
 	text-decoration-style: dotted;
 	color: var(--color-gray-100);
 }
-
+a:hover {
+	color: var(--color-accent);
+}
 
 .gray-100 {
 	color: var(--color-gray-100);
@@ -153,8 +155,8 @@ nav#navbar {
 .container-flex {
 	height: 100%;
 	display: flex;
-	/* align-items: center; */
-	/* justify-content: center; */
+	align-items: center;
+	justify-content: center;
 	flex-direction: column;
 }
 .container-flex-row {
@@ -200,16 +202,16 @@ nav#navbar {
 	width: 80%;
 }
 
-
 .image-container {
 	justify-content: space-between;
 }
 
 .card img {
-	max-height: calc(var(--spacing)*30rem);
+	max-height: calc(var(--spacing) * 30rem);
 }
 
-.card span, .card p {
+.card span,
+.card p {
 	color: var(--color-gray-500);
 }
 
@@ -222,40 +224,39 @@ nav#navbar {
 	flex-grow: 1;
 }
 
-.card-container .card#big-card {
+.card-container .card.big-card {
 	flex-grow: 2;
 }
 
-.card-container .card#biggest-card {
+.card-container .card.biggest-card {
 	flex-grow: 3;
 }
-
 
 /* Homepage styles */
 .homepage-container {
 	padding-top: calc(var(--spacing) * 5rem);
 }
 /* Clan styles */
-.clan-logo{
+.clan-logo {
 	height: 10rem;
 	background-color: var(--color-gray-100);
 }
-.clan-logo-container{
-	display:flex;
+.clan-logo-container {
+	display: flex;
 	justify-content: space-between;
 	margin-right: 5rem;
 	margin-left: 5rem;
 }
-.clan-logo-name{
+.clan-logo-name {
 	font-size: 2rem;
 	text-align: center;
 }
-.clan-logo-subcontainer{
+.clan-logo-subcontainer {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
-.clan-logo-summary-text{
+.clan-logo-summary-text {
 	background-color: var(--color-gray-700);
 	padding: 2px;
 	width: 200px;
@@ -264,8 +265,24 @@ nav#navbar {
 	cursor: pointer;
 	margin: 2rem;
 }
-
-@media screen and (max-width: 600px) {
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: var(--border-size);
+	border: calc(var(--border-size) / 2) solid var(--color-gray-600);
+}
+table th,
+table td {
+	padding: calc(var(--border-size) * 2);
+	border-radius: var(--border-radius);
+	border: calc(var(--border-size) / 2) solid var(--color-gray-500);
+	color: var(--color-gray-400);
+}
+table td {
+	background-color: var(--color-gray-800);
+	color: var(--color-gray-400);
+}
+@media screen and (max-width: 1200px) {
 	.card-container {
 		flex-direction: column;
 	}
