@@ -29,6 +29,7 @@
           oder Manda'yaim, ist der angestammte Heimatplanet
           der <a href="#mandalorianer">Mandalorianer</a> und
           wird als Zentrum ihrer Kultur betrachtet.
+        <blockquote>"That planet is cursed. Anyone who goes there dies." - <span class="author">Din Djarin</span></blockquote>
         </p>
       </section>
       <section id="big-card" class="card bg-gray-700 gray-300">
@@ -87,32 +88,38 @@
     <article class="container-flex card-container">
       <section class="card big-card bg-gray-700 gray-300">
         <h3 id="mandalorianer">Mandalorianer - Begriff</h3>
-        <span>
-          Die Mandalorianer, informal kurz Mandos genannt, sind ein <a href="./clans">clanbasiertes</a> Volk. Ihre Geschichte ist voller Gewalt und Konflikte. Ursprünglich stammten sie von <a href="#mandalore">Mandalore</a> und legten sich regelmäßig mit den Jedi an und führten Kriege gegen diese.</span>
+        <img class="image" alt="war" src="./assets/images/deathwatch.webp">
+        <img class="image" alt="armour" src="./assets/images/Jangofullarmor.webp">
+        <p>
+          Die Mandalorianer, informal kurz Mandos genannt, sind ein <a href="./clans">clanbasiertes</a> Volk. Ihre Geschichte ist voller Gewalt und Konflikte. Ursprünglich stammten sie von <a href="#mandalore">Mandalore</a> und legten sich regelmäßig mit den Jedi an und führten Kriege gegen diese.</p>
       </section>
       <section class="card bg-gray-700 gray-300">
         <h3 id="mandalorianer-waffen">Mandalorianer - Waffen</h3>
-        <span>
+        <img class="image" alt="blaster" src="./assets/images/blaster.webp">
+        <img class="image" alt="weapons" src="./assets/images/weapons.webp">
+        <p>
           Die Mandalorianer trugen eine besondere Rüstung, die aus <a href="#beskar">Beskar</a> bestand.
           Die Rüstungen waren teils hunderte von Jahren alt und sind daher ein wichtiger
           Teil mandalorianischer Geschichte, da sie all die Schlachten miterlebt hatten.
           Bekannt sind sie für ihre <a href="#jetpack">Jet-Packs</a>, mit denen sie Gegner aus der Luft angriffen.
           Oft nutzten sie WESTAR-35-Blasterpistolen als Bewaffnung.
-        </span>
+        </p>
       </section>
     </article>
     <article class="container-flex card-container">
       <section class="card bg-gray-700 gray-300">
         <h3 id="beskar">Beskar</h3>
-        <img class="image" alt="beskar" src="./assets/images/beskar.webp">
+        <img class="image" alt="beskar" src="./assets/images/beskar2.webp">
         <p>Beskar ist eine Legierung, die direkten Blasterschüssen und einem Lichtschwerthieb standhalten kann.</p>
       </section>
-      <section class="card biggest-card bg-gray-700 gray-300">
+      <section class="card bg-gray-700 gray-300">
         <h3 id="jetpack">Jetpack</h3>
         <img class="image" alt="jetpack" src="./assets/images/jetpack.webp">
+        <img class="image" alt="jetpack2" src="./assets/images/jetpack2.webp">
         <p>Ein Jetpack ist ein tragbarer Düsenantrieb, der auf den Rücken geschnallt wird, um sich für kurze Zeiträume frei in der Luft oder im Raum zu bewegen.</p>
       </section>
     </article>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/EjPAqY09fkQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </main>
 </body>
 
