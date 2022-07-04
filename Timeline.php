@@ -19,14 +19,6 @@
   echo gen_navbar(__FILE__);
   ?>
   <div class="container container-flex">
-    <h1>History</h1>
-  </div>
-  <div class="container">
-    <h3>Ancient Mandalore</h3>
-    <h3>Mandalorian Civil War</h3>
-    <h3>Independence</h3>
-    <h3>Deathwatch</h3>
+    <h1>Timeline of Mandalorian Content</h1>
   </div>
 </body>
-
-</html>
