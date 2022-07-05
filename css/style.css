@@ -325,6 +325,9 @@ table td {
 	border-bottom: none !important;
 	background-color: var(--color-gray-900);
 }
+.timeline-table td[class*="legende"] {
+	text-align: center;
+}
 .legende-mandalorian {
 	background-color: lightblue !important;
 }
