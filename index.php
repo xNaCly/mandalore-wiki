@@ -20,19 +20,21 @@
   ?>
   <main class="container container-flex homepage-container">
     <img class="image" alt="the mandalorian fighting stormtroopers" src="./assets/images/din-fighting.webp">
-    <article class="card-container">
-      <section class="card bg-gray-700 gray-300">
+    <article class="card-container card-container-home">
+      <section class="card flex-column bg-gray-700 gray-300">
         <h3 id="mandalore">Mandalore - Begriff</h3>
-        <img class="image" src="./assets/images/mandalore.webp" alt="mandalore">
-        <p>
+        <div>
+          <img class="image" src="./assets/images/mandalore.webp" alt="mandalore">
+        </div>
+        <span>
           <a href="#mandalore">Mandalore</a>,
           oder Manda'yaim, ist der angestammte Heimatplanet
           der <a href="#mandalorianer">Mandalorianer</a> und
           wird als Zentrum ihrer Kultur betrachtet.
+        </span>
         <blockquote>"That planet is cursed. Anyone who goes there dies." - <span class="author">Din Djarin</span></blockquote>
-        </p>
       </section>
-      <section id="big-card" class="card bg-gray-700 gray-300">
+      <section class="card flex-column bg-gray-700 gray-300">
         <h3 id="mandalore-geo">Mandalore - Geografie</h3>
         <span>
           Mandalore liegt im Äußeren Rand und zeichnet sich durch ein tropisches Klima aus.
@@ -84,40 +86,45 @@
           </tr>
         </table>
       </section>
-    </article>
-    <article class="container-flex card-container">
-      <section class="card big-card bg-gray-700 gray-300">
+      <section class="card flex-column bg-gray-700 gray-300">
         <h3 id="mandalorianer">Mandalorianer - Begriff</h3>
-        <img class="image" alt="war" src="./assets/images/deathwatch.webp">
-        <img class="image" alt="armour" src="./assets/images/Jangofullarmor.webp">
-        <p>
-          Die Mandalorianer, informal kurz Mandos genannt, sind ein <a href="./clans">clanbasiertes</a> Volk. Ihre Geschichte ist voller Gewalt und Konflikte. Ursprünglich stammten sie von <a href="#mandalore">Mandalore</a> und legten sich regelmäßig mit den Jedi an und führten Kriege gegen diese.</p>
+        <div>
+          <img class="image" alt="war" src="./assets/images/deathwatch.webp">
+          <!-- <img class="image" alt="armour" src="./assets/images/Jangofullarmor.webp"> -->
+          <img class="image" alt="jetpack2" src="./assets/images/jetpack2.webp">
+        </div>
+        <span>
+          Die Mandalorianer, informal kurz Mandos genannt, sind ein <a href="./clans">clanbasiertes</a> Volk. Ihre Geschichte ist voller Gewalt und Konflikte. Ursprünglich stammten sie von <a href="#mandalore">Mandalore</a> und legten sich regelmäßig mit den Jedi an und führten Kriege gegen diese.</span>
       </section>
-      <section class="card bg-gray-700 gray-300">
+      <section class="card flex-column bg-gray-700 gray-300">
+        <h3 id="beskar">Beskar</h3>
+        <div>
+          <img class="image" alt="beskar" src="./assets/images/beskar2.webp">
+        </div>
+        <span>Beskar ist eine Legierung, die direkten Blasterschüssen und einem Lichtschwerthieb standhalten kann.<span>
+      </section>
+      <section class="card flex-column bg-gray-700 gray-300">
+        <h3 id="jetpack">Jetpack</h3>
+        <div class="flex" style="max-width: fit-content">
+          <img class="image" alt="jetpack" src="./assets/images/jetpack.webp">
+        </div>
+        <span>Ein Jetpack ist ein tragbarer Düsenantrieb, der auf den Rücken geschnallt wird, um sich für kurze Zeiträume frei in der Luft oder im Raum zu bewegen.</span>
+      </section>
+      <section class="card flex-column bg-gray-700 gray-300">
         <h3 id="mandalorianer-waffen">Mandalorianer - Waffen</h3>
-        <img class="image" alt="blaster" src="./assets/images/blaster.webp">
-        <img class="image" alt="weapons" src="./assets/images/weapons.webp">
-        <p>
+        <div>
+          <img class="image" alt="blaster" src="./assets/images/blaster.webp">
+          <img class="image" alt="weapons" src="./assets/images/weapons.webp">
+        </div>
+        <span>
           Die Mandalorianer trugen eine besondere Rüstung, die aus <a href="#beskar">Beskar</a> bestand.
           Die Rüstungen waren teils hunderte von Jahren alt und sind daher ein wichtiger
           Teil mandalorianischer Geschichte, da sie all die Schlachten miterlebt hatten.
           Bekannt sind sie für ihre <a href="#jetpack">Jet-Packs</a>, mit denen sie Gegner aus der Luft angriffen.
           Oft nutzten sie WESTAR-35-Blasterpistolen als Bewaffnung.
-        </p>
+        </span>
       </section>
-    </article>
-    <article class="container-flex card-container">
-      <section class="card bg-gray-700 gray-300">
-        <h3 id="beskar">Beskar</h3>
-        <img class="image" alt="beskar" src="./assets/images/beskar2.webp">
-        <p>Beskar ist eine Legierung, die direkten Blasterschüssen und einem Lichtschwerthieb standhalten kann.</p>
-      </section>
-      <section class="card bg-gray-700 gray-300">
-        <h3 id="jetpack">Jetpack</h3>
-        <img class="image" alt="jetpack" src="./assets/images/jetpack.webp">
-        <img class="image" alt="jetpack2" src="./assets/images/jetpack2.webp">
-        <p>Ein Jetpack ist ein tragbarer Düsenantrieb, der auf den Rücken geschnallt wird, um sich für kurze Zeiträume frei in der Luft oder im Raum zu bewegen.</p>
-      </section>
+
     </article>
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/EjPAqY09fkQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </main>
