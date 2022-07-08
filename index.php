@@ -2,14 +2,16 @@
 <html lang="de">
 
 <head>
-  <title>Mandalore -
-    <?php
-    include "./php/util/util.php";
-    echo format_title(__FILE__);
-    ?>
-  </title>
   <?php
-  include "./php/templates/header.php"
+  include "./php/templates/header.php";
+  include "./php/util/util.php";
+  include "./php/util/opengraph.php";
+  $title = format_title(__FILE__);
+  echo "
+    <title>
+      $title
+    </title>";
+  echo generate_og_tags($title, "Ein ausführliches und ansehnliches Wiki über Mandalore und Mandalorianer");
   ?>
 </head>
 
@@ -19,7 +21,10 @@
   echo gen_navbar(__FILE__);
   ?>
   <main class="container container-flex homepage-container">
-    <img class="image" alt="the mandalorian fighting stormtroopers" src="./assets/images/din-fighting.webp">
+    <figure>
+      <img class="image" alt="the mandalorian fighting stormtroopers" src="./assets/images/din-fighting.webp">
+      <figcaption>Mandalorianer Din Djarin kämpft gegen Sturmtruppler</figcaption>
+    </figure>
     <article class="card-container card-container-home">
       <section class="card flex-column bg-gray-700 gray-300">
         <h3 id="mandalore">Mandalore - Begriff</h3>
@@ -32,14 +37,14 @@
           der <a href="#mandalorianer">Mandalorianer</a> und
           wird als Zentrum ihrer Kultur betrachtet.
         </span>
-        <blockquote>"That planet is cursed. Anyone who goes there dies." - <span class="author">Din Djarin</span></blockquote>
+        <blockquote><em>"That planet is cursed. Anyone who goes there dies."</em> - <span class="author">Din Djarin</span></blockquote>
       </section>
       <section class="card flex-column bg-gray-700 gray-300">
         <h3 id="mandalore-geo">Mandalore - Geografie</h3>
         <span>
           Mandalore liegt im Äußeren Rand und zeichnet sich durch ein tropisches Klima aus.
           Der Planet ist mit dichtem Dschungel bewachsen, daneben gibt es einige Wüstenregionen
-          und nur wenig fruchtbares Farmland. Die wichtigste Metropole ist die Hauptstadt Keldabe.
+          und nur wenig fruchtbares Farmland. Die wichtigste Metropole ist die Hauptstadt <strong>Keldabe</strong>.
           Während der Klonkriege war die Hauptstadt Sundari, die in einer Ödlandschaft unter einer Kuppel existierte.
           Der Planet ist mit ca. vier Millionen Einwohnern relativ dünn besiedelt.
         </span>
@@ -74,7 +79,7 @@
           </tr>
           <tr>
             <th>Export</th>
-            <td>Waffen, Beskar</td>
+            <td><a href="#mandalorianer-waffen">Waffen</a>, <a href="#beskar">Beskar</a></td>
           </tr>
           <tr>
             <th>Import</th>
@@ -105,7 +110,7 @@
       </section>
       <section class="card flex-column bg-gray-700 gray-300">
         <h3 id="jetpack">Jetpack</h3>
-        <div class="flex" style="max-width: fit-content">
+        <div style="max-width: fit-content">
           <img class="image" alt="jetpack" src="./assets/images/jetpack.webp">
         </div>
         <span>Ein Jetpack ist ein tragbarer Düsenantrieb, der auf den Rücken geschnallt wird, um sich für kurze Zeiträume frei in der Luft oder im Raum zu bewegen.</span>
@@ -124,10 +129,30 @@
           Oft nutzten sie WESTAR-35-Blasterpistolen als Bewaffnung.
         </span>
       </section>
-
+      <section class="card flex-column bg-gray-700 gray-300">
+        <h3>Resol'nare / Sechs Handlungen</h3>
+        <div>
+          <img class="image" src="./assets/images/schmiede.webp" alt="schmiede">
+        </div>
+        <span>
+          Mandalorianer ist nur wer sich an die folgenden Regeln hält:
+          <ol>
+            <li>Seine Kinder als Mandalorianer zu erziehen</li>
+            <li>Die traditionelle Rüstung tragen</li>
+            <li>Selbstverteidigung</li>
+            <li>Zum Wohl des Clans beizutragen</li>
+            <li>Die Sprache Mando'a sprechen</li>
+            <li>Sich dem Mandalore anzuschließen, wenn er zu den Waffen ruft</li>
+          </ol>
+        </span>
+      </section>
     </article>
+    <br>
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/EjPAqY09fkQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </main>
+  <?php
+  include "./php/templates/footer.php";
+  ?>
 </body>
 
 </html>

@@ -2,14 +2,16 @@
 <html lang="de">
 
 <head>
-  <title>Mandalore -
-    <?php
-    include "./php/util/util.php";
-    echo format_title(__FILE__);
-    ?>
-  </title>
   <?php
-  include "./php/templates/header.php"
+  include "./php/templates/header.php";
+  include "./php/util/util.php";
+  include "./php/util/opengraph.php";
+  $title = format_title(__FILE__);
+  echo "
+  <title>
+    $title
+  </title>";
+  echo generate_og_tags($title, "Ein Überblick über Medien die mandalorianische Geschichte enthalten");
   ?>
 </head>
 
@@ -19,8 +21,10 @@
   echo gen_navbar(__FILE__);
   ?>
   <div class="container container-flex">
-    <h1>Timeline of Mandalorian Content</h1>
-    <h2>Timeline:</h2>
+    <h1>Timeline:</h1>
+
+
+
     <div class="timeline-container">
       <table class="timeline-table">
         <caption>
@@ -128,7 +132,8 @@
           <tr>
             <td class="timeline-heading">The Clone Wars</td>
             <td rowspan="1" class="legende-tcw"></td>
-            <td colspan="4" class="legende-tcw">TCW</td>
+            <td colspan="4" class="legende-tcw"><abbr title="The Clone Wars">TCW</abbr>
+            </td>
           </tr>
           <tr>
             <td class="timeline-heading">Rebels</td>
@@ -247,4 +252,7 @@
       </div>
     </div>
   </div>
+  <?php
+  include "./php/templates/footer.php";
+  ?>
 </body>
