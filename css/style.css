@@ -8,8 +8,7 @@
 	--color-gray-700: #2f3237;
 	--color-gray-800: #1d1e20;
 	--color-gray-900: #111213;
-	--color-accent: #a97bfd;
-	--color-accent-rgb: 255, 0, 0;
+	--color-accent: #26ff00;
 	--border-radius: 0.5rem;
 	--spacing: 0.5;
 	--border-size: 0.25rem;
@@ -35,6 +34,12 @@ a {
 	text-decoration-style: dotted;
 	color: var(--color-gray-100);
 }
+
+a[href*="https"]::after {
+	content: url("/assets/images/extern_link.svg");
+	zoom: 25%;
+}
+
 a:hover {
 	color: var(--color-accent);
 }
@@ -181,11 +186,6 @@ nav#navbar {
 	align-items: start;
 	/* justify-content: center; */
 	flex-direction: row;
-}
-.box {
-	border-radius: calc(var(--spacing) * 1.5rem);
-	box-shadow: rgba(var(--color-accent-rgb), 0.25) 0px 50px 100px -20px,
-		rgba(var(--color-accent-rgb), 0.3) 0px 30px 60px -30px;
 }
 .error-heading {
 	font-size: calc(var(--spacing) * 10rem);
