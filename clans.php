@@ -2,26 +2,32 @@
 <html lang="de">
 
 <head>
-  <title>Mandalore -
-    <?php
-    include "./php/util/util.php";
-    echo format_title(__FILE__);
-    ?>
-  </title>
   <?php
-  include "./php/templates/header.php"
+  include "./php/templates/header.php";
+  include "./php/util/util.php";
+  include "./php/util/opengraph.php";
+  $title = format_title(__FILE__);
+  echo "
+    <title>
+      $title
+    </title>";
+  echo generate_og_tags($title, "Eine Zusammenfassung von mandalorianischen Clans");
   ?>
 </head>
 
 <body>
   <?php
   include "./php/templates/navbar.php";
+  include "./php/util/debug.php";
+  debug("test: " . __FILE__);
   echo gen_navbar(__FILE__);
   ?>
   <div class="container-flex">
     <h1>Clans</h1>
     <h3>Clan Fett, Clan Vizsla, Clan Wren, Clan Saxon</h3>
   </div>
+
+
 
   <div class="container clan-logo-container">
     <div class="clan-logo-subcontainer">

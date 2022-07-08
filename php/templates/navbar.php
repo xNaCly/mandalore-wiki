@@ -6,10 +6,12 @@
 function gen_navbar(string $file_path)
 {
   $navbar1 = "<nav id='navbar'>
-  <a class='starwars-font navbar-logo' href='./'>@</a>
-  <div class='navbar-link-container'>";
+    <a class='starwars-font navbar-logo' href='./'>
+      @
+    </a>
+    <div class='navbar-link-container'>\n";
   $navbar2 = "</div>
-  </nav>";
+  </nav>\n";
   $sites = array("clans", "history", "timeline");
 
   foreach ($sites as $site) {
@@ -20,14 +22,15 @@ function gen_navbar(string $file_path)
     } else if (strcasecmp($file_name, "notfound") == 0) {
       $file_name = "404";
     }
+
     $page_name = ucwords($file_name);
-    $file_name = format_title($file_path);
+    $file_name = __get_title($file_path);
     $id = "";
     if (strcasecmp($file_name, $site) == 0) {
       $id = "id='active'";
     }
     $siteUpper = strtoupper($site);
-    $navbar1 = $navbar1 . "<a class='nav-link' $id href='./$site'>$siteUpper</a>";
+    $navbar1 = $navbar1 . "\t<a class='nav-link' $id href='./$site'>\n\t\t$siteUpper\n\t</a>\n";
   }
 
   return $navbar1 . $navbar2;
