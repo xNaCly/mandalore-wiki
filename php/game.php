@@ -5,5 +5,5 @@
  */
 function which_mando()
 {
-  $sites = array("Jango Fett", "Boba Fett", "Pre Vizla", "Sabine Wren", "Bo-Katan", "Din Djarin", "");
+  $sites = array("Jango Fett", "Boba Fett", "Pre Vizla", "Sabine Wren", "Bo-Katan", "Din Djarin");
 }
