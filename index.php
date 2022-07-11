@@ -26,7 +26,7 @@
       <figcaption>Mandalorianer Din Djarin kämpft gegen Sturmtruppler</figcaption>
     </figure>
     <article class="card-container card-container-home">
-      <section class="card flex-column bg-gray-700 gray-300">
+      <section class="card  bg-gray-700 gray-300">
         <h3 id="mandalore">Mandalore - Begriff</h3>
         <div>
           <img class="image" src="./assets/images/mandalore.webp" alt="mandalore">
@@ -35,11 +35,11 @@
           <a href="#mandalore">Mandalore</a>,
           oder Manda'yaim, ist der angestammte Heimatplanet
           der <a href="#mandalorianer">Mandalorianer</a> und
-          wird als Zentrum ihrer Kultur betrachtet.
+          wird als Zentrum ihrer Kultur betrachtet. Trotzdessen leben viele Mandalorianer auf Mandalores Monden oder in anderen Sternensystemen.
         </span>
         <blockquote><em>"That planet is cursed. Anyone who goes there dies."</em> - <span class="author">Din Djarin</span></blockquote>
       </section>
-      <section class="card flex-column bg-gray-700 gray-300">
+      <section class="card  bg-gray-700 gray-300">
         <h3 id="mandalore-geo">Mandalore - Geografie</h3>
         <span>
           Mandalore liegt im Äußeren Rand und zeichnet sich durch ein tropisches Klima aus.
@@ -91,7 +91,7 @@
           </tr>
         </table>
       </section>
-      <section class="card flex-column bg-gray-700 gray-300">
+      <section class="card  bg-gray-700 gray-300">
         <h3 id="mandalorianer">Mandalorianer - Begriff</h3>
         <div>
           <img class="image" alt="war" src="./assets/images/deathwatch.webp">
@@ -101,22 +101,22 @@
         <span>
           Die Mandalorianer, informal kurz Mandos genannt, sind ein <a href="./clans">clanbasiertes</a> Volk. Ihre Geschichte ist voller Gewalt und Konflikte. Ursprünglich stammten sie von <a href="#mandalore">Mandalore</a> und legten sich regelmäßig mit den Jedi an und führten Kriege gegen diese.</span>
       </section>
-      <section class="card flex-column bg-gray-700 gray-300">
+      <section class="card  bg-gray-700 gray-300">
         <h3 id="beskar">Beskar</h3>
         <div>
           <img class="image" alt="beskar" src="./assets/images/beskar2.webp">
         </div>
         <span>Beskar ist eine Legierung, die direkten Blasterschüssen und einem Lichtschwerthieb standhalten kann.<span>
       </section>
-      <section class="card flex-column bg-gray-700 gray-300">
+      <section class="card  bg-gray-700 gray-300">
         <h3 id="jetpack">Jetpack</h3>
         <div style="max-width: fit-content">
           <img class="image" alt="jetpack" src="./assets/images/jetpack.webp">
         </div>
-        <span>Ein Jetpack ist ein tragbarer Düsenantrieb, der auf den Rücken geschnallt wird, um sich für kurze Zeiträume frei in der Luft oder im Raum zu bewegen.</span>
+        <span>Ein Jetpack ist ein tragbarer Düsenantrieb, der auf den Rücken geschnallt wird, um sich für kurze Zeiträume frei in der Luft oder im Raum zu bewegen. Zudem befindet sich eine lenkbare Rakete, oftmals auch getauscht mit einem Peilsender, im Jetpack.</span>
       </section>
-      <section class="card flex-column bg-gray-700 gray-300">
-        <h3 id="mandalorianer-waffen">Mandalorianer - Waffen</h3>
+      <section class="card  bg-gray-700 gray-300">
+        <h3 id="mandalorianer-waffen">Ausrüstung</h3>
         <div>
           <img class="image" alt="blaster" src="./assets/images/blaster.webp">
           <img class="image" alt="weapons" src="./assets/images/weapons.webp">
@@ -129,7 +129,7 @@
           Oft nutzten sie WESTAR-35-Blasterpistolen als Bewaffnung.
         </span>
       </section>
-      <section class="card flex-column bg-gray-700 gray-300">
+      <section class="card  bg-gray-700 gray-300">
         <h3>Resol'nare / Sechs Handlungen</h3>
         <div>
           <img class="image" src="./assets/images/schmiede.webp" alt="schmiede">
