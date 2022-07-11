@@ -9,6 +9,7 @@
 	--color-gray-800: #1d1e20;
 	--color-gray-900: #111213;
 	--color-accent: rgb(255, 0, 0);
+	--color-accent-rgba: rgb(255, 0, 0, 0.7);
 	--border-radius: 0.5rem;
 	--spacing: 0.5;
 	--border-size: 0.25rem;
@@ -19,10 +20,13 @@ body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	width: 100%;
 }
 
 body {
+	overflow-y: scroll;
 	min-height: 100%;
+	min-width: 100%;
 	color: var(--color-gray-100);
 	background-color: var(--color-gray-800);
 	font-family: -apple-system, "IBM Plex Sans", BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans",
@@ -47,9 +51,15 @@ figcaption {
 }
 
 a {
-	text-decoration: underline;
-	text-decoration-style: dotted;
-	color: var(--color-gray-100);
+	text-decoration: none;
+	padding-bottom: 0;
+	border-bottom: var(--color-gray-400) 1px dotted;
+	color: var(--color-gray-400);
+}
+
+a:visited {
+	border-bottom: var(--color-gray-600) 1px dotted;
+	color: var(--color-gray-600);
 }
 
 a[href*="https"]::after {
@@ -64,6 +74,7 @@ a[href*="https"]::after {
 
 a:hover {
 	color: var(--color-accent);
+	border-bottom: var(--color-accent) 1px dotted;
 }
 blockquote {
 	background-color: var(--color-gray-900);
@@ -187,8 +198,12 @@ footer div {
 footer div a {
 	margin-top: calc(var(--spacing) * 0.25rem);
 	margin-bottom: calc(var(--spacing) * 0.25rem);
-	text-decoration: none;
+	border: none;
 	color: var(--color-gray-500);
+}
+footer div a:hover {
+	border: none;
+	color: var(--color-gray-700);
 }
 footer div h4 {
 	margin: 0;
@@ -219,18 +234,22 @@ nav#navbar {
 .navbar-logo {
 	font-size: 2rem;
 	margin-bottom: calc(var(--spacing) * 2rem);
+	border: none;
+	color: var(--color-gray-100) !important;
 }
 .navbar-logo:hover {
 	text-shadow: 0 0 1em var(--color-accent);
+	border: none;
 }
 .nav-link {
 	text-decoration: none;
 	padding: calc(var(--spacing) * 2rem);
 	color: var(--color-gray-500);
 	border-left: 1px solid var(--color-gray-700);
-	border-bottom: 1px solid var(--color-gray-900);
+	border-bottom: 1px solid transparent;
 }
 .nav-link:hover {
+	border-bottom: 1px solid transparent;
 	color: var(--color-gray-100);
 }
 .nav-link:last-child {
@@ -275,15 +294,15 @@ nav#navbar {
 	padding: calc(var(--border-radius) * 2);
 }
 
+.card > *:not(h3) {
+	margin-top: calc(var(--spacing) * 2rem);
+	margin-bottom: calc(var(--spacing) * 2rem);
+}
+
 .flex {
 	display: flex;
 }
 
-.flex-column {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-}
 .card h3 {
 	margin-top: 0;
 }
@@ -316,6 +335,7 @@ nav#navbar {
 }
 
 .card-container {
+	width: 100%;
 	display: inline-grid;
 	grid-template-columns: repeat(4, 1fr);
 	grid-template-rows: auto;
@@ -350,7 +370,6 @@ nav#navbar {
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-evenly;
-	margin-bottom: calc(var(--spacing) * 1rem);
 }
 
 /* Homepage styles */
@@ -473,6 +492,7 @@ table td {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		width: 100%;
 	}
 	/* .timeline-table {
 		display: none;
