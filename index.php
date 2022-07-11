@@ -129,6 +129,17 @@
           Oft nutzten sie WESTAR-35-Blasterpistolen als Bewaffnung.
         </span>
       </section>
+      <section class="card bg-gray-700 gray-300">
+        <h3>Raumschiffe</h3>
+        <div>
+          <img class="image" src="./assets/images/slave1.webp" alt="slave_1">
+          <img class="image" src="./assets/images/rezorcrest.jpg" alt="razor_crest">
+        </div>
+        <span>
+          Mandalorianer flogen oftmals ikonische, schwer bewaffnete und wendige Raumschiffe. Wie hier zum Beispiel das Raumschiff Jango Fetts und später Boba Fetts. Die Slave
+          <code>I</code> besaß seimische Bomben, Ionen-Kanonen, Protonentorpedos, Peilsenderwerfer und einen Hyperraum antrieb. Außerdem noch eine Schlafkammer und genug Stauraum für diverse Gefangene. Das andere hier gezeigte Beispiel ist mehr Frachter als Kampfschiff, kann aber trotzdem austeilen sowie einstecken. Das Schiff Din Djarins besaß zwei Lasergeschütze, einen sehr geräumigen Waffenschrank, Stauraum für Gefangene und sogar eine Toilette. Alle drei hier genannten Mandalorianer waren einmal Kopfgeldjäger und nutzen ihre Raumschiffe um diese zu jagen, daher waren diese als wendig aber durchschlagskräftig konzipiert. Die Slave <code>I</code> war ursprünglich ein Gefangenentransporter und die Razor crest ein Kanonenboot eines unabhängigen Systemes.
+        </span>
+      </section>
       <section class="card  bg-gray-700 gray-300">
         <h3>Resol'nare / Sechs Handlungen</h3>
         <div>

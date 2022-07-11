@@ -30,6 +30,7 @@
     <h3>Independence</h3>
     <h3>Deathwatch</h3>
   </div>
+
   <?php
   include "./php/templates/footer.php";
   ?>

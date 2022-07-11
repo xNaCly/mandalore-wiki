@@ -16,7 +16,7 @@
     </div>
     <div>
       <h4>Kontakt</h4>
-      <a href="/php/kontakt.php">Formular</a>
+      <a href="kontakt.php">Formular</a>
     </div>
   </aside>
 </footer>
