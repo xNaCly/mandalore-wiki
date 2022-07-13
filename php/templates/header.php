@@ -1,6 +1,7 @@
 <?php
 echo
 "
+<meta charset='UTF-8'>
 <!--                              github.com/xnacly                                 -->
 <!--                              github.com/derphilosopff                          -->
 <!--                              github.com/mar-kno                                -->
@@ -54,4 +55,4 @@ echo
   <link rel='stylesheet' href='css/style.css' type='text/css'>
   <link rel='stylesheet' href='css/fonts.css' type='text/css'>
   <link rel='stylesheet' href='https://use.fontawesome.com/releases/v6.1.1/css/all.css' />
-  <meta charset='UTF-8'>\n";
+  \n";

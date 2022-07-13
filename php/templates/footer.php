@@ -1,7 +1,7 @@
 <footer>
-  <main>
+  <div class="footer-left">
     <h2>Mandalorian Wiki</h2>
-  </main>
+  </div>
   <aside>
     <div>
       <h4>Infos</h4>

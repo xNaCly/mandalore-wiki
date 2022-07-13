@@ -22,67 +22,23 @@
   ?>
   <div class="container container-flex">
     <h1>Timeline:</h1>
-
-
-
     <div class="timeline-container">
       <table class="timeline-table">
         <caption>
           Zeitleiste der für Mandalore wichtigen Filme und Serien im <em>Star Wars</em> Universum
         </caption>
-        <tbody>
+        <thead>
           <tr>
             <th class="timeline-heading" colspan="2" rowspan="3">Filme und Serien</th>
             <th class="timeline-heading" colspan="46">Fiktive Zeitrechnung in Jahren</th>
           </tr>
           <tr>
-            <th class="timeline-heading" colspan="28">Vor der Schlacht um Yavin 4</th>
+            <th class="timeline-heading" colspan="26">Vor der Schlacht um Yavin 4</th>
             <th class="timeline-heading" colspan="18">Nach der Schlacht um Yavin 4</th>
           </tr>
-          <tr class="timeline-years">
-            <th>33</th>
-            <th>32</th>
-            <th>31</th>
-            <th>30-24</th>
-            <th>23</th>
-            <th>22</th>
-            <th>21</th>
-            <th>20</th>
-            <th>19</th>
-            <th>18</th>
-            <th>17-15</th>
-            <th>14</th>
-            <th>13</th>
-            <th>12</th>
-            <th>11</th>
-            <th>10</th>
-            <th>9</th>
-            <th>8</th>
-            <th>7</th>
-            <th>6</th>
-            <th>5</th>
-            <th>4</th>
-            <th>3</th>
-            <th>2</th>
-            <th>1</th>
-            <th>0</th>
-            <th>1</th>
-            <th>2</th>
-            <th>3</th>
-            <th>4</th>
-            <th>5</th>
-            <th>6</th>
-            <th>7</th>
-            <th>8</th>
-            <th>9</th>
-            <th>10</th>
-            <th>11-31</th>
-            <th>32</th>
-            <th>33</th>
-            <th>34</th>
-            <th>35</th>
-            <th>36</th>
-          </tr>
+
+        </thead>
+        <tbody>
           <tr>
             <td class="timeline-heading">Angriff der Klonkrieger</td>
             <td rowspan="1" class="legende-atc"></td>
@@ -205,6 +161,54 @@
             <td class="legende-bobf">Boba</td>
           </tr>
         </tbody>
+        <tfoot>
+          <tr class="timeline-years">
+            <th>-</th>
+            <th>-</th>
+            <th>33</th>
+            <th>32</th>
+            <th>31</th>
+            <th>30-24</th>
+            <th>23</th>
+            <th>22</th>
+            <th>21</th>
+            <th>20</th>
+            <th>19</th>
+            <th>18</th>
+            <th>17-15</th>
+            <th>14</th>
+            <th>13</th>
+            <th>12</th>
+            <th>11</th>
+            <th>10</th>
+            <th>9</th>
+            <th>8</th>
+            <th>7</th>
+            <th>6</th>
+            <th>5</th>
+            <th>4</th>
+            <th>3</th>
+            <th>2</th>
+            <th>1</th>
+            <th>0</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+            <th>6</th>
+            <th>7</th>
+            <th>8</th>
+            <th>9</th>
+            <th>10</th>
+            <th>11-31</th>
+            <th>32</th>
+            <th>33</th>
+            <th>34</th>
+            <th>35</th>
+            <th>36</th>
+          </tr>
+        </tfoot>
       </table>
     </div>
     <div class="card-container card-container-timeline">
@@ -213,7 +217,7 @@
           <img class="image" src="assets/images/angriffderclonkrieger.webp" alt="angriff der klonkrieger">
         </div>
         <span>
-          Der zweite Film der Prequals <strong>(Angriff der Klonkrieger)</strong> hat besondere Signifikanz für das Auseinandersetzen des Jediordens mit den Mandalorianern, da hier Obi Wan Kenobi das erste Mal auf einen Mandalorianer namens <a href="">Jango Fett</a> trifft als er diesen durch die Galaxie aufgrund eines Attentatversuches auf die Prinzessin Amidala von Naboo jagte. Dieser Mandalorianer stirbt im Laufe des Filmes und hinterlässt seinen identischen und genetisch unveränderten Sohn dessen Schiff und seine Rüstung.
+          Der zweite Film der Prequals <strong>(Angriff der Klonkrieger)</strong> hat besondere Signifikanz für das Auseinandersetzen des Jediordens mit den Mandalorianern, da hier Obi Wan Kenobi das erste Mal auf einen Mandalorianer namens <a href="https://jedipedia.fandom.com/wiki/Jango_Fett">Jango Fett</a> trifft als er diesen durch die Galaxie aufgrund eines Attentatversuches auf die Prinzessin Amidala von Naboo jagte. Dieser Mandalorianer stirbt im Laufe des Filmes und hinterlässt seinen identischen und genetisch unveränderten Sohn dessen Schiff und seine Rüstung.
         </span>
       </article>
       <article class="card  bg-gray-700 gray-300">

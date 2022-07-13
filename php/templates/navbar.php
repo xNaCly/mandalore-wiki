@@ -5,13 +5,15 @@
  */
 function gen_navbar(string $file_path)
 {
-  $navbar1 = "<nav id='navbar'>
+  $navbar1 = "<header>
+  <nav id='navbar'>
     <a class='starwars-font navbar-logo' href='./'>
       @
     </a>
     <div class='navbar-link-container'>\n";
   $navbar2 = "</div>
-  </nav>\n";
+  </nav>
+  </header>\n";
   $sites = array("clans", "history", "timeline");
 
   foreach ($sites as $site) {

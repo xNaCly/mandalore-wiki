@@ -107,7 +107,7 @@
         <div>
           <img class="image" alt="beskar" src="./assets/images/beskar2.webp">
         </div>
-        <span>Beskar ist eine Legierung, die direkten Blasterschüssen und einem Lichtschwerthieb standhalten kann.<span>
+        <span>Beskar ist eine Legierung, die direkten Blasterschüssen und einem Lichtschwerthieb standhalten kann.</span>
       </section>
       <section class="card  bg-gray-700 gray-300">
         <h3 id="jetpack">Jetpack</h3>
@@ -148,15 +148,15 @@
         </div>
         <span>
           Mandalorianer ist nur wer sich an die folgenden Regeln hält:
-          <ol>
-            <li>Seine Kinder als Mandalorianer zu erziehen</li>
-            <li>Die traditionelle Rüstung tragen</li>
-            <li>Selbstverteidigung</li>
-            <li>Zum Wohl des Clans beizutragen</li>
-            <li>Die Sprache Mando'a sprechen</li>
-            <li>Sich dem Mandalore anzuschließen, wenn er zu den Waffen ruft</li>
-          </ol>
         </span>
+        <ol>
+          <li>Seine Kinder als Mandalorianer zu erziehen</li>
+          <li>Die traditionelle Rüstung tragen</li>
+          <li>Selbstverteidigung</li>
+          <li>Zum Wohl des Clans beizutragen</li>
+          <li>Die Sprache Mando'a sprechen</li>
+          <li>Sich dem Mandalore anzuschließen, wenn er zu den Waffen ruft</li>
+        </ol>
       </section>
     </article>
     <div class="flex-column">
