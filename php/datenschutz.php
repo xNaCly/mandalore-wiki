@@ -38,14 +38,15 @@
 
     Wenn Sie diese Website nur nutzen, um sich zu informieren und keine Daten angeben, dann verarbeiten wir nur die Daten, die zur Anzeige der Website auf dem von Ihnen verwendeten internetfähigen Gerät erforderlich sind. Das sind insbesondere:
 
-    <ul>
-      <li>IP-Adresse</li>
-      <li>Datum und Uhrzeit der Anfrage</li>
-      <li>jeweils übertragene Datenmenge</li>
-      <li>die Website, von der die Anforderung kommt</li>
-      <li>Browsertyp und Browserversion</li>
-      <li>Betriebssystem</li>
-    </ul>
+    <dl>
+      <dt>IP-Adresse</dt>
+      <dt>Datum und Uhrzeit der Anfrage</dt>
+      <dt>jeweils übertragene Datenmenge</dt>
+      <dt>die Website, von der die Anforderung kommt</dt>
+      <dt>Browsertyp und Browserversion</dt>
+      <dt>Betriebssystem</dt>
+      <dd>All diese werden vom Hosting Server immer gelogt.</dd>
+    </dl>
 
     Rechtsgrundlage für die Verarbeitung dieser Daten sind berechtigte Interessen gemäß Art. 6 Abs. 1 UAbs. 1 Buchstabe f) DSGVO, um die Darstellung der Website grundsätzlich zu ermöglichen.
 

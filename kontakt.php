@@ -22,26 +22,29 @@
   ?>
   <main class="container container-flex contact-container">
     <h1>Kontakt-formular</h1>
+    <hr>
     <form class="contact-formular" action="/php/kontakt.php">
       <div>
         <label for="name">
-          <h3>
-            Name:
-          </h3>
+          Name:
         </label>
-        <input type="text" placeholder="Name" required id="name" name="name">
+        <input type="text" placeholder="Name" required id="name" name="name" />
       </div>
       <div>
         <label for="email">
-          <h3>Email:</h3>
+          Email:
         </label>
-        <input type="email" placeholder="example@email.com" required id="email" name="email">
+        <input type="email" placeholder="example@email.com" required id="email" name="email" />
+      </div>
+      <div>
+        <label for="msg">
+          Nachricht:
+        </label>
+        <textarea placeholder="Nachricht..." required id="msg" name="msg"></textarea>
       </div>
       <div>
         <label for="typ">
-          <h3>
-            Kontaktgrund:
-          </h3>
+          Kontaktgrund:
         </label>
         <select name="typ" id="typ">
           <option value="bugreport">Bug-Report</option>
@@ -51,7 +54,7 @@
       </div>
       <div>
         <label for="box"><a href="/php/datenschutz.php">Datenschutzerklärung</a> akzeptiert:</label>
-        <input type="checkbox" required id="box" name="privacy">
+        <input type="checkbox" required id="box" name="privacy" />
       </div>
       <button type="submit">Absenden</button>
     </form>
