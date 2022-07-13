@@ -3,25 +3,25 @@
 
 <head>
   <?php
-  include "./php/templates/header.php";
-  include "./php/util/util.php";
-  include "./php/util/opengraph.php";
+  include "templates/header.php";
+  include "util/util.php";
+  include "util/opengraph.php";
   $title = format_title(__FILE__);
   echo "
-  <title>
-    $title
-  </title>";
+    <title>
+      $title
+    </title>";
   echo generate_og_tags($title, "Ein Überblick über Medien die mandalorianische Geschichte enthalten");
   ?>
 </head>
 
 <body>
   <?php
-  include "./php/templates/navbar.php";
+  include "templates/navbar.php";
   echo gen_navbar(__FILE__);
   ?>
   <div class="container container-flex">
-    <h1>Timeline:</h1>
+    <h1>Timeline</h1>
     <div class="timeline-container">
       <table class="timeline-table">
         <caption>
@@ -214,7 +214,7 @@
     <div class="card-container card-container-timeline">
       <article class="card  bg-gray-700 gray-300">
         <div>
-          <img class="image" src="assets/images/angriffderclonkrieger.webp" alt="angriff der klonkrieger">
+          <img class="image" src="../assets/images/angriffderclonkrieger.webp" alt="angriff der klonkrieger">
         </div>
         <span>
           Der zweite Film der Prequals <strong>(Angriff der Klonkrieger)</strong> hat besondere Signifikanz für das Auseinandersetzen des Jediordens mit den Mandalorianern, da hier Obi Wan Kenobi das erste Mal auf einen Mandalorianer namens <a href="https://jedipedia.fandom.com/wiki/Jango_Fett">Jango Fett</a> trifft als er diesen durch die Galaxie aufgrund eines Attentatversuches auf die Prinzessin Amidala von Naboo jagte. Dieser Mandalorianer stirbt im Laufe des Filmes und hinterlässt seinen identischen und genetisch unveränderten Sohn dessen Schiff und seine Rüstung.
@@ -222,7 +222,7 @@
       </article>
       <article class="card  bg-gray-700 gray-300">
         <div>
-          <img class="image" src="assets/images/klonkriege.webp" alt="angriff der klonkrieger">
+          <img class="image" src="../assets/images/klonkriege.webp" alt="angriff der klonkrieger">
         </div>
         <span>
           Die erste animierte Serie im Star Wars Universium erklärt politische Zusammenhänge bezüglich Mandalore und die kriegerische Vergangenheit sowie die terroristischen mandalorianischen Organisationen und der Machthunger der Mandalorianer. Hinzukommt, dass der Zuschauer die Korruption im Senat und auf Mandalore zu Gesicht bekommt. Sie thematisiert das Dilemma der Seperatisten und die Machtstrukturen der Mandalorianer sowie deren Verbissenheit. Außerdem sehen wir wie die Deathwatch von Count Dooku und später von Darth Maul benutzt werden.
@@ -230,7 +230,7 @@
       </article>
       <article class="card  bg-gray-700 gray-300">
         <div>
-          <img class="image" src="assets/images/rebels.webp" alt="rebels">
+          <img class="image" src="../assets/images/rebels.webp" alt="rebels">
         </div>
         <span>
           Die oftmals harsch kritisierte Serie Star Wars Rebels beleuchtet mehrere Folgen lang die Beziehung der Clans von Mandalore zum Imperium, die Nacht der tausend Tränen und die Konflikte der Clans untereinander. Rebels geht besonders auf Clan Vren ein und zeigt wie Zerrissen die Clanmitglieder sind und wie sehr sie unter der Belagerung des Imperiums leiden. Besonders interessant ist auch der Zusammenschluss verschiedener Clans zum Vereinigen von Mandalore zuerst unter Sabine Vren und Später unter Bo Kataan. Zudem werden Themen angesprochen wie das Darksaber und dessen Entstehungsgeschichte.
@@ -238,15 +238,15 @@
       </article>
       <article class="card  bg-gray-700 gray-300">
         <div>
-          <img class="image" src="assets/images/mando.webp" alt="mandalorian">
-          <img class="image" src="assets/images/blacksmith.webp" alt="mandalorian-blacksmith">
+          <img class="image" src="../assets/images/mando.webp" alt="mandalorian">
+          <img class="image" src="../assets/images/blacksmith.webp" alt="mandalorian-blacksmith">
         </div>
         <span>
           Die preisgekrönte Disney+ Serie <strong>The Mandalorian</strong> thematisiert nicht nur die Findling Tradition der Mandalorianer sondern auch die unterschiedlichen Extremistischen Gruppierungen innerhalb der Mandalorianer. Auch hier wird das Darksaber und dessen Relevanz für das Volk der Mandalorianer angesprochen. Zudem bekommen wir zu Gesicht wie die verbleibenden Mandalorianer sich vor den Resten des Imperiums und der neuen Republik verstecken und ihren Lebensunterhalt als Mitglieder in Kopfgeldjägergilden verdienen. Wir lernen in dieser Serie Mandalorianische Traditionen, Schmiedehandwerk und Regeln kennen.
         </span>
       </article>
       <article class="card bg-gray-700 gray-300">
-        <img class="image" src="assets/images/bobafett.webp" alt="boba fett">
+        <img class="image" src="../assets/images/bobafett.webp" alt="boba fett">
         <span>
           Das Book of Boba Fett handelt grundsätzlich von Boba Fetts Geschichte, d.h. wie er den Sarlac überlebte und mit den Sandmenschen zusammenlebte.
           Wirklich relevant für die Mandalorianische Geschichte sind hier nur Ausschnitte, wie Bobas Rüstung, das für Mandalorianer typische Jagen und Zähmen von wilden Tieren und Kampfszenen die bestimmte Gadgets darstellen, wie z.B.: Whistling Arrows, JetPacks und Thermaldetonatoren.
@@ -255,6 +255,6 @@
     </div>
   </div>
   <?php
-  include "./php/templates/footer.php";
+  include "templates/footer.php";
   ?>
 </body>

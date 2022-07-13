@@ -78,8 +78,8 @@ figcaption {
 a {
 	text-decoration: none;
 	padding-bottom: 0;
-	border-bottom: var(--color-gray-400) 1px dotted;
-	color: var(--color-gray-400);
+	border-bottom: var(--color-gray-300) 1px dotted;
+	color: var(--color-gray-300);
 }
 
 a:visited {
@@ -98,8 +98,8 @@ a[href*="https"]::after {
 }
 
 a:hover {
-	color: var(--color-accent);
-	border-bottom: var(--color-accent) 1px dotted;
+	color: var(--color-gray-400);
+	border-bottom: var(--color-gray-400) 1px dotted;
 }
 blockquote {
 	background-color: var(--color-gray-900);

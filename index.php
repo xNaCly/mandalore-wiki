@@ -2,8 +2,11 @@
 <html lang="de">
 
 <head>
+
+  <link rel='stylesheet' href='css/style.css' type='text/css'>
+  <link rel='stylesheet' href='css/fonts.css' type='text/css'>
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v6.1.1/css/all.css' />
   <?php
-  include "./php/templates/header.php";
   include "./php/util/util.php";
   include "./php/util/opengraph.php";
   $title = format_title(__FILE__);
@@ -100,7 +103,7 @@
           <img class="image" alt="jetpack2" src="./assets/images/jetpack2.webp">
         </div>
         <span>
-          Die Mandalorianer, informal kurz Mandos genannt, sind ein <a href="./clans">clanbasiertes</a> Volk. Ihre Geschichte ist voller Gewalt und Konflikte. Ursprünglich stammten sie von <a href="#mandalore">Mandalore</a> und legten sich regelmäßig mit den Jedi an und führten Kriege gegen diese.</span>
+          Die Mandalorianer, informal kurz Mandos genannt, sind ein <a href="./php/clans">clanbasiertes</a> Volk. Ihre Geschichte ist voller Gewalt und Konflikte. Ursprünglich stammten sie von <a href="#mandalore">Mandalore</a> und legten sich regelmäßig mit den Jedi an und führten Kriege gegen diese.</span>
       </section>
       <section class="card  bg-gray-700 gray-300">
         <h3 id="beskar">Beskar</h3>
@@ -159,17 +162,8 @@
         </ol>
       </section>
     </article>
-    <div class="flex-column">
-      <div>
-        <video controls>
-          <source src="assets/videos/mando_trailer.mp4">
-        </video>
-      </div>
-      <br>
-      <div>
-        <iframe src="https://www.youtube-nocookie.com/embed/EjPAqY09fkQ?controls=0" title="YouTube video player" allowfullscreen></iframe>
-      </div>
-    </div>
+    <br>
+
   </main>
   <?php
   include "./php/templates/footer.php";
