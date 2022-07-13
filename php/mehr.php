@@ -50,6 +50,9 @@
     </div>
     <div>
       <h2>Audio:</h2>
+      <audio controls>
+        <source src="../assets/audio/theme.mp3">
+      </audio>
     </div>
   </div>
 
