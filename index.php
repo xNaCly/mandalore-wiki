@@ -20,6 +20,9 @@
   include "./php/templates/navbar.php";
   echo gen_navbar(__FILE__);
   ?>
+  <span class="backtotop">
+    <a class="backtotop-anchor" href="#navbar">Back up</a>
+  </span>
   <main class="container container-flex homepage-container">
     <figure>
       <img class="image" alt="the mandalorian fighting stormtroopers" src="./assets/images/din-fighting.webp">
