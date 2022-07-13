@@ -33,5 +33,7 @@ function gen_navbar(string $file_path)
     $navbar1 = $navbar1 . "\t<a class='nav-link' $id href='./$site'>\n\t\t$siteUpper\n\t</a>\n";
   }
 
-  return $navbar1 . $navbar2;
+  return $navbar1 . $navbar2 . "<span class='backtotop'>
+    <a class='backtotop-anchor' href='#navbar'></a>
+  </span>";
 }

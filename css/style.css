@@ -605,8 +605,8 @@ table td {
 
 .backtotop {
 	padding: calc(var(--spacing) * 2rem);
-	margin: calc(var(--spacing) * 2rem);
-	background-color: var(--color-gray-600);
+	margin: calc(var(--spacing) * 5rem);
+	/* background-color: var(--color-gray-600); */
 	border-radius: var(--border-radius);
 	position: fixed;
 	bottom: 0;
@@ -620,11 +620,11 @@ table td {
 	border: none;
 }
 .backtotop-anchor::before {
+	position: absolute;
 	content: "\f102";
 	font: var(--fa-font-solid);
-	margin-right: calc(var(--spacing) * 0.2rem);
-	font-size: small;
-	display: inline-block;
+	margin: calc(var(--spacing) * 0.2rem);
+	font-size: 2rem;
 	text-rendering: auto;
 	-webkit-font-smoothing: antialiased;
 }
