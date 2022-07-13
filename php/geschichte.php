@@ -3,9 +3,9 @@
 
 <head>
   <?php
-  include "./php/templates/header.php";
-  include "./php/util/util.php";
-  include "./php/util/opengraph.php";
+  include "templates/header.php";
+  include "util/util.php";
+  include "util/opengraph.php";
   $title = format_title(__FILE__);
   echo "
   <title>
@@ -17,7 +17,7 @@
 
 <body>
   <?php
-  include "./php/templates/navbar.php";
+  include "templates/navbar.php";
   echo gen_navbar(__FILE__);
   ?>
   <div class="container container-flex">
@@ -32,7 +32,7 @@
   </div>
 
   <?php
-  include "./php/templates/footer.php";
+  include "templates/footer.php";
   ?>
 </body>
 

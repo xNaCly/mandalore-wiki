@@ -3,9 +3,9 @@
 
 <head>
   <?php
-  include "./php/templates/header.php";
-  include "./php/util/util.php";
-  include "./php/util/opengraph.php";
+  include "templates/header.php";
+  include "util/util.php";
+  include "util/opengraph.php";
   $title = format_title(__FILE__);
   echo "
     <title>
@@ -17,22 +17,17 @@
 
 <body>
   <?php
-  include "./php/templates/navbar.php";
-  include "./php/util/debug.php";
-  debug("test: " . __FILE__);
+  include "templates/navbar.php";
   echo gen_navbar(__FILE__);
   ?>
   <div class="container-flex">
     <h1>Clans</h1>
     <h3>Clan Fett, Clan Vizsla, Clan Wren, Clan Saxon</h3>
   </div>
-
-
-
   <div class="container clan-logo-container">
     <div class="clan-logo-subcontainer">
       <span class="clan-logo-name ft-bold">Clan Fett</span>
-      <img src="assets/images/clans/images_clans_fett.webp" alt="clan fett" class="clan-logo">
+      <img src="../assets/images/clans/images_clans_fett.webp" alt="clan fett" class="clan-logo">
       <details>
         <summary class="clan-logo-summary-text">Details anzeigen</summary>
         <p>
@@ -55,7 +50,7 @@
     </div>
     <div class="clan-logo-subcontainer">
       <span class="clan-logo-name ft-bold">Clan Vizsla</span>
-      <img src="assets/images/clans/images_clans_vizsla.webp" alt="clan vizsla" class="clan-logo">
+      <img src="../assets/images/clans/images_clans_vizsla.webp" alt="clan vizsla" class="clan-logo">
       <details>
         <summary class="clan-logo-summary-text">Details anzeigen</summary>
         <p>
@@ -79,7 +74,7 @@
 
     <div class="clan-logo-subcontainer">
       <span class="clan-logo-name ft-bold">Clan Wren</span>
-      <img src="assets/images/clans/images_clans_fett.webp" alt="clan fett" class="clan-logo">
+      <img src="../assets/images/clans/images_clans_fett.webp" alt="clan fett" class="clan-logo">
       <details>
         <summary class="clan-logo-summary-text">Details anzeigen</summary>
         <p>
@@ -103,7 +98,7 @@
 
     <div class="clan-logo-subcontainer">
       <span class="clan-logo-name ft-bold">Clan Saxon</span>
-      <img src="assets/images/clans/images_clans_fett.webp" alt="clan fett" class="clan-logo">
+      <img src="../assets/images/clans/images_clans_fett.webp" alt="clan fett" class="clan-logo">
       <div>
         <details>
           <summary class="clan-logo-summary-text">Details anzeigen</summary>
@@ -127,6 +122,9 @@
       </div>
     </div>
   </div>
+  <?php
+  include "templates/footer.php";
+  ?>
 </body>
 
 </html>
