@@ -20,7 +20,7 @@
 
 <body>
   <main class="container">
-    <a href="/">Zurück</a>
+    <a class="back-anchor" href="/">Zurück</a>
     <h1>Datenschutzerklärung</h1>
 
     In dieser Datenschutzerklärung informieren wir Sie über die Verarbeitung personenbezogener Daten bei der Nutzung dieser Website.

@@ -68,6 +68,7 @@ figure {
 }
 
 figcaption {
+	right: 50px;
 	color: var(--color-gray-500);
 	margin-left: calc(var(--spacing) * 2rem);
 	font-size: smaller;
@@ -627,9 +628,19 @@ table td {
 	text-rendering: auto;
 	-webkit-font-smoothing: antialiased;
 }
-.backtotop-anchor:hover {
+.backtotop-anchor:hover,
+.back-anchor:hover {
 	color: var(--color-gray-400) !important;
 	border: none;
+}
+.back-anchor {
+	border-radius: var(--border-radius);
+	margin: calc(var(--spacing) * 0.2rem);
+	top: 0;
+	position: sticky;
+	background-color: var(--color-gray-600);
+	color: var(--color-gray-100) !important;
+	padding: calc(var(--spacing) * 1rem);
 }
 @media screen and (max-width: 1200px) {
 	.contact-formular {
