@@ -38,10 +38,22 @@
         <input type="email" placeholder="example@email.com" required id="email" name="email">
       </div>
       <div>
+        <label for="typ">
+          <h3>
+            Kontaktgrund:
+          </h3>
+        </label>
+        <select name="typ" id="typ">
+          <option value="bugreport">Bug-Report</option>
+          <option value="feedback">Feedback</option>
+          <option value="anfrage">Anfrage</option>
+        </select>
+      </div>
+      <div>
         <label for="box"><a href="/php/datenschutz.php">Datenschutzerklärung</a> akzeptiert:</label>
         <input type="checkbox" required id="box" name="privacy">
       </div>
-      <input type="submit">
+      <button type="submit">Absenden</button>
     </form>
   </main>
   <?php

@@ -10,11 +10,6 @@
       <a href="https://github.com/xNaCly/webengineering-project">Github</a>
     </div>
     <div>
-      <h4>Über</h4>
-      <a href="#">Features</a>
-      <a href="#">About</a>
-    </div>
-    <div>
       <h4>Kontakt</h4>
       <a href="kontakt.php">Formular</a>
     </div>
