@@ -19,7 +19,7 @@
 
 <body>
   <main class="container">
-    <a href="/">Zurück</a>
+    <a class="back-anchor" href="/">Zurück</a>
     <h1> Impressum </h1>
     <pre>Angaben gem. § 5 TMG:</pre>
 
