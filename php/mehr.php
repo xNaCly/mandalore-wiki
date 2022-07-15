@@ -20,11 +20,11 @@
   include "templates/navbar.php";
   echo gen_navbar(__FILE__);
   ?>
-  <div class="container container-flex">
+  <div class="flex flex-column">
     <h1>Quellen, Videos und Audios</h1>
+    <h2>Quelle:</h2>
+    <h3>Jedi Fandom:</h3>
     <div class="card">
-      <h2>Quelle:</h2>
-      <h3>Jedi Fandom:</h3>
       <ul>
         <li>
           <a href="https://jedipedia.fandom.com/wiki/Mandalorianer">Mandalorianer</a>
@@ -37,18 +37,14 @@
         </li>
       </ul>
     </div>
-    <div class="flex-column">
+    <div class="flex flex-column">
       <h2>Videos:</h2>
-      <div>
-        <video controls>
-          <source src="../assets/videos/mando_trailer.mp4">
-        </video>
-      </div>
-      <div>
-        <iframe src="https://www.youtube-nocookie.com/embed/EjPAqY09fkQ?controls=0" title="YouTube video player" allowfullscreen></iframe>
-      </div>
+      <video controls>
+        <source src="https://www.moviejones.de/trailer/serien/themandalorian_s02_trl2dt.mp4">
+      </video>
+      <iframe src="https://www.youtube-nocookie.com/embed/EjPAqY09fkQ?controls=0" title="YouTube video player" allowfullscreen></iframe>
     </div>
-    <div>
+    <div class="flex flex-column">
       <h2>Audio:</h2>
       <audio controls>
         <source src="../assets/audio/theme.mp3">

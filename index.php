@@ -145,7 +145,7 @@
         </span>
       </section>
       <section class="card  bg-gray-700 gray-300">
-        <h3>Resol'nare / Sechs Handlungen</h3>
+        <h3 id="sechshandlungen">Resol'nare / Sechs Handlungen</h3>
         <div>
           <img class="image" src="./assets/images/schmiede.webp" alt="schmiede">
         </div>

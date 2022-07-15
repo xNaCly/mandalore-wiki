@@ -117,8 +117,8 @@ source,
 video,
 iframe {
 	aspect-ratio: 16/9;
-	min-width: 100%;
-	min-height: 100%;
+	width: 50%;
+	height: 50%;
 	border-radius: var(--border-radius);
 	border: none;
 }
@@ -331,6 +331,13 @@ footer div h4 {
 
 .flex {
 	display: flex;
+}
+
+.flex-column {
+	width: 100%;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
 }
 
 .card h3 {
