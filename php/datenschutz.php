@@ -3,12 +3,10 @@
 
 
 <head>
-  <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="../css/font.css">
   <?php
-  require(dirname(__FILE__) . "./templates/header.php");
-  require(dirname(__FILE__) . "./util/util.php");
-  require(dirname(__FILE__) . "./util/opengraph.php");
+  include "templates/header.php";
+  include "util/util.php";
+  include "util/opengraph.php";
   $title = format_title(__FILE__);
   echo "
     <title>
