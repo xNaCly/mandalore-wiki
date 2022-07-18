@@ -41,6 +41,9 @@ select {
 details {
 	cursor: pointer;
 }
+summary {
+	text-align: center;
+}
 select option {
 	background-color: var(--color-gray-700);
 	color: var(--color-gray-100);
@@ -186,6 +189,7 @@ iframe {
 }
 /*-----*/
 footer {
+	margin-top: 5rem;
 	background-color: var(--color-gray-900);
 	padding: calc(var(--spacing) * 4rem);
 	display: grid;
