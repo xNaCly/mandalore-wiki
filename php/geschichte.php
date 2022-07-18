@@ -67,12 +67,12 @@
           <p>Die Mandalorianer bestehen aus Angehörigen der verschiedensten Spezies, verbunden durch eine gemeinsame Sprache - Mando’a - und eine gemeinsame Kultur, die strengen Richtlinien folgt: den Resol’Nare, den Sechs Handlungen, die die mandalorianische Identität ausmachen (Details dazu siehe unten). Unter den Angehörigen dieses gemischten Volkes finden sich in der überwiegenden Mehrheit Menschen und andere humanoide Völker, aber auch so exotische Spezies wie die Togorianer oder Kerestianer. Trotz der heterogenen Zusammensetzung weisen viele menschliche Mandalorianer gemeinsame genetische Merkmale auf; die größte genetische Übereinstimmung haben sie mit den Bewohnern von Concord Dawn und anderen Planeten dieses Sektors.</p>
           <p>Die Herkunft und Vergangenheit spielt jedoch keine Rolle, so lange eine Person sich den <a href="../#sechshandlungen">Resol Nare</a> verpflichtet und diese ernsthaft praktiziert. </p>
         </div>
-        <img class="image" src="../assets/images/geschichte/taung.png" alt="taung" />
+        <img class="image" src="../assets/images/geschichte/taung.webp" alt="taung" />
       </div>
 
       <h2 id="mandalore">Mandalore</h2>
       <div class="flex">
-        <img class="image" src="../assets/images/geschichte/mandalore.jpg" alt="mandalore" />
+        <img class="image" src="../assets/images/geschichte/mandalore.webp" alt="mandalore" />
 
         <p>
           Die "ersten Mandalorianer" zogen durch den Äußeren Rand, bis sie auf einen Planeten stießen, der von mammutartigen Mythosauriern bevölkert war. Die Krieger rotteten diese gigantischen Tiere aus und errichteten aus ihren Knochen die berühmte "Knochenstadt", eine spektakuläre Festung, die erst nach den Klonkriegen zerstört wurde. Der Legende nach wurde der Planet zu Ehren des Anführers "Mandalore" genannt und galt fortan als "Heimatwelt" der Mandalorianer, auch wenn sie dort weder ursprünglich herstammten, noch dort dauerhaft blieben. Tatsächlich haben viele der heute lebenden Mandalorianer diesen Planeten niemals gesehen.
@@ -94,7 +94,7 @@
             Die Abbildung links zeigt einen "Crusader" in seiner traditionellen Rüstung. Sie ist für Nahkampf mit Faust und Stichwaffen optimiert, der damals dem Kampf mit Schusswaffen vorgezogen wurde, da er größere Ehre versprach.
           </p>
         </div>
-        <img class="image" src="../assets/images/geschichte/neocrusader.jpg" alt="neocrusader" />
+        <img class="image" src="../assets/images/geschichte/neocrusader.webp" alt="neocrusader" />
       </div>
 
       <h2 id="sith">Sith-Kriege</h2>
@@ -102,12 +102,15 @@
         Auf der Suche nach neuen Herausforderungen schlugen sich die Mandalorianer in den Großen Sith-Kriegen (4000 VSY) auf die Seite der Sith. Diesen Krieg gewannen die Jedi und die Galaktische Republik, doch die Niederlage provozierte die Mandalorianer nur umso mehr: seit dem Tag warteten sie auf ihre Chance, sich in einer "Letzten Großen Schlacht" zu beweisen.
       </p>
       <h2 id="mandkrie">Mandalorianische Kriege</h2>
-      <p>
-        Um nicht die Aufmerksamkeit der Republik zu erwecken, begannen die Mandalorianer, kleinere Planeten am Äußeren Rand anzugreifen und zu erobern. Dabei vermieden sie bewusst Welten, die mit der Republik in Kontakt standen oder ihr gar angehörten. Über 20 Jahre hinweg bauten sie auf diese Weise im Geheimen eine schlagkräftige Armee auf. Die Invasoren, die sich nun "Neo-Kreuzritter" nannten, ahnten, dass es zu einer gewaltigen Schlacht kommen würde, wenn die Republik herausfand, was sie planten, und rekrutierten deswegen prophylaktisch zahlreiche Einheimische der eroberten Welten und akzeptierten sie als Gleichberechtigte und "Konvertiten" in ihren Reihen. Drei Jahre lang marodierten sie gemeinsam in der Galaxis und lösten das aus, was als "Die Mandalorianischen Kriege" in die Geschichte einging.
-      </p>
-      <p>
-        Schließlich setzte die Republik diesem Treiben ein Ende und schaffte es, den Anführer der Neo-Crusader, Mandalore den Ultimativen zu töten. Revan und Malak, zwei Jedi, die nach den Kriegen zu Sith wurden, leiteten die Entscheidungsschlacht bei Malachor V im Jahr 3960 VSY, die das Ende der Mandalorianer besiegelte und ihre Flotte fast vollständig auslöschte. Revan nutzte die Gelegenheit nicht, auch die restlichen Überlebenden zu eliminieren, wie ihm von vielen Seiten geraten wurde, um diesem kriegerischen Volk endgültig den Todesstoß zu geben, und so wurden die Mandalorianer lediglich ins Exil getrieben und gezwungen, sich in der ganzen Galaxis zu zerstreuen.
-      </p>
+      <div class="flex flex-column">
+        <img class="image" src="../assets/images/geschichte/belagerung-mandalore.webp" alt="belagerung">
+        <p>
+          Um nicht die Aufmerksamkeit der Republik zu erwecken, begannen die Mandalorianer, kleinere Planeten am Äußeren Rand anzugreifen und zu erobern. Dabei vermieden sie bewusst Welten, die mit der Republik in Kontakt standen oder ihr gar angehörten. Über 20 Jahre hinweg bauten sie auf diese Weise im Geheimen eine schlagkräftige Armee auf. Die Invasoren, die sich nun "Neo-Kreuzritter" nannten, ahnten, dass es zu einer gewaltigen Schlacht kommen würde, wenn die Republik herausfand, was sie planten, und rekrutierten deswegen prophylaktisch zahlreiche Einheimische der eroberten Welten und akzeptierten sie als Gleichberechtigte und "Konvertiten" in ihren Reihen. Drei Jahre lang marodierten sie gemeinsam in der Galaxis und lösten das aus, was als "Die Mandalorianischen Kriege" in die Geschichte einging.
+        </p>
+        <p>
+          Schließlich setzte die Republik diesem Treiben ein Ende und schaffte es, den Anführer der Neo-Crusader, Mandalore den Ultimativen zu töten. Revan und Malak, zwei Jedi, die nach den Kriegen zu Sith wurden, leiteten die Entscheidungsschlacht bei Malachor V im Jahr 3960 VSY, die das Ende der Mandalorianer besiegelte und ihre Flotte fast vollständig auslöschte. Revan nutzte die Gelegenheit nicht, auch die restlichen Überlebenden zu eliminieren, wie ihm von vielen Seiten geraten wurde, um diesem kriegerischen Volk endgültig den Todesstoß zu geben, und so wurden die Mandalorianer lediglich ins Exil getrieben und gezwungen, sich in der ganzen Galaxis zu zerstreuen.
+        </p>
+      </div>
       <h2 id="kopfgeld">Söldner und Kopfgeldjäger</h2>
       <p>
         Nachdem die Mandalorianer nur knapp ihrer eigenen Vernichtung entgangen waren, mussten sie sich neue Lebensweisen erschließen - sie konnten keine Armee oder Flotten mehr versammeln und waren zu wenige, um der Republik entschieden entgegentreten zu können. Deshalb begannen sie, ihre Kriegskünste in den Dienst anderer zu stellen, wobei sie nicht selten auch in ihren Augen "unehrenhafte" Aufgaben übernahmen: sie wurden Söldner, Kopfgeldjäger, Attentäter oder Leibwächter. Es spielte keine Rolle, für wen sie arbeiteten; sie folgten keiner Ideologie oder Politik, sondern stellten ihre Dienste demjenigen zur Verfügung, der am besten zahlte.
@@ -121,51 +124,62 @@
         <p>
           Nicht alle Mandalorianer waren zufrieden mit dieser Art der Existenz und ein großer Umbruch ereignete sich im Jahr 60 VSY, als Jaster Mereel, ein ehemaliger Journeyman Protector von Concord Dawn, feststellte, dass die Lebensweise als Söldner ohne eigene Überzeugung und nur auf der Jagd nach Geld vielen nicht genügte. Mereel war Anhänger einer strikten Ethik und zugleich ein sehr erfahrener und respektierter Kämpfer, was ihm Respekt und Ansehen einbrachte. Sein Ziel war es, der neue Mand’alor zu werden und die verstreuten Clans erneut zu vereinen, dieses Mal unter einem ethischen Kodex - dieser Kodex wurde bekannt als der "Superkommando-Kodex". Seine Anhänger nannten sich Superkommandos oder "Wahre Mandalorianer".
         </p>
-        <img class="image" src="../assets/images/geschichte/deathwatch.jpg" alt="deathwatch" />
+        <img class="image" src="../assets/images/geschichte/deathwatch.webp" alt="deathwatch" />
       </div>
       <p>
         So viele Anhänger Mereel auch fand, so viele Mandalorianer lehnten seine neuen Ideen und seinen Führungsstil ab, da sie das gewinnträchtige Leben mochten und Ideologien negativ gegenüberstanden, sondern lieber für denjenigen arbeiteten, der am meisten zahlte. Hier tat sich Tor Vizsla hervor, der seinerseits Anhänger um sich scharte und eine mandalorianische Splittergruppe bildete: die "Death Watch" (dt.: "Todeswache").
       </p>
-      <p>
-        Es entbrannte ein blutiger Bürgerkrieg zwischen diesen beiden Gruppen, der die fast vollständige Auslöschung der Mandalorianer zur Folge hatte. Im Laufe des Krieges stellte sich heraus, dass die "Wahren Mandalorianer" der undisziplinierten "Death Watch" taktisch und organisatorisch überlegen waren. So wurde die "Death Watch" nahezu vollständig zerschlagen, nur wenige Mitglieder (wie Ghez Hokan) überlebten den Bürgerkrieg.
-      </p>
-      <p>
-        Doch auch die "Wahren Mandalorianer" hatten kein Glück - in der Schlacht von Galidraan gerieten sie in eine Falle der Death Watch und wurden von den Jedi für die Verantwortlichen eines Massakers auf Galidraan gehalten. Die Jedi unter der Führung von Dooku eliminierten fast alle Angehörigen dieser Bewegung. Nur ein "Wahrer Mandalorianer" überlebte: Jango Fett, der später Vizsla, den Anführer der Death Watch, auf Corellia tötete.
-      </p>
+      <div>
+        <img src="../assets/images/geschichte/dunkelklinge.webp" alt="dunkelklinge" class="image">
+        <p>
+          Es entbrannte ein blutiger Bürgerkrieg zwischen diesen beiden Gruppen, der die fast vollständige Auslöschung der Mandalorianer zur Folge hatte. Im Laufe des Krieges stellte sich heraus, dass die "Wahren Mandalorianer" der undisziplinierten "Death Watch" taktisch und organisatorisch überlegen waren. So wurde die "Death Watch" nahezu vollständig zerschlagen, nur wenige Mitglieder (wie Ghez Hokan) überlebten den Bürgerkrieg.
+        </p>
+        <p>
+          Doch auch die "Wahren Mandalorianer" hatten kein Glück - in der Schlacht von Galidraan gerieten sie in eine Falle der Death Watch und wurden von den Jedi für die Verantwortlichen eines Massakers auf Galidraan gehalten. Die Jedi unter der Führung von Dooku eliminierten fast alle Angehörigen dieser Bewegung. Nur ein "Wahrer Mandalorianer" überlebte: Jango Fett, der später Vizsla, den Anführer der Death Watch, auf Corellia tötete.
+        </p>
+      </div>
 
       <h2 id="spender">Der Genspender</h2>
       <div class="flex">
-        <img class="image" src="../assets/images/geschichte/jango-angeworben.jpg" alt="deathwatch" />
+        <img class="image" src="../assets/images/geschichte/jango-angeworben.webp" alt="deathwatch" />
         <p>
           Im Jahr 32 VSY trat ein Mann namens Tyranus an Jango Fett heran, nachdem er den Kopfgeldjäger auf eine harte Probe gestellt hatte, und machte ihm ein verlockendes Angebot: Jango sollte, im Gegenzug für eine hohe Bezahlung, sein genetisches Material zur Verfügung stellen, um daraus eine Klonarmee für die Republik zu züchten. Jango willigte ein und stellte die Bedingung: Neben dem Geld wollte Jango einen Klon, aus seinen unveränderten reinen Genen. Jango erzog den Klon wie seinen eigenen Sohn - Boba Fett.
         </p>
       </div>
-      <p>
-        Jango wirkte, gemeinsam mit 75 weiteren Mandalorianern (viele davon alte Kampfgefährten oder Freunde von früher), an der Ausbildung der Klonarmee mit und übernahm persönlich die Ausbildung der Alpha ARCs, während sich die mandalorianischen Cuy'val Dar um die Eliteeinheiten der Republik-Kommandos kümmerten. Zur Ausbildung gehörte nicht nur die Kampfschulung, sondern auch die Vermittlung des mandalorianischen Erbes und der Kultur - so schrieb Jango traditionelle mandalorianische Schlachtgesänge wie das Vode An oder das Gra’tua Cuun um, um es an die Situation der Klonsoldaten anzupassen. Auch führte er das archaische Ritual Dha Werda Verda ein, das sich im Laufe des Krieges quer durch die ganze Armee verbreitete.
-      </p>
-      <h2 id="klonkrieg">Klonkriege</h2>
-      <p>
-
-        In den Klonkriegen kämpfte auf diese Weise eine aus Millionen von mandalorianischen Klonen bestehende Armee auf Seiten der Republik gegen die Droiden der Separatisten. Diese waren jedoch nicht die einzigen Mandalorianer, die an den Klonkriegen teilnahmen. Einige der Cuy’val Dar-Ausbilder, wie Kal Skirata, traten ebenfalls in den Dienst der GAR, während auf der anderen Seite ein unerwarteter Gegenspieler erschien: Der "defekte" Alpha-ARC-Klon A-02 "Spar", der es geschafft hatte, der kaminoanischen Rekonditionierung zu entkommen und zu desertieren.
-      </p>
-      <p>
-        Aufgrund eines genetischen Defekts verfügte Spar über Erinnerungen von Jango Fett und war besessen von dem Gedanken, die Mandalorianischen Superkommandos wiederzubeleben. Er reiste nach Mandalore, wo er Freiwillige rekrutierte – darunter sogar ehemalige Mitglieder der "Death Watch" – und griff mit diesen schließlich auf Seiten der Separatisten in die Klonkriege ein. Er nannte sich Mandalore der Wiederbeleber. Seine Einheiten führten für die KUS Spezialoperationen und Blitzangriffe durch, zum Beispiel während der Zweiten Schlacht von Kamino. Der Krieg verlief für diese Mandalorianer jedoch nicht günstig: Sie wurden fast völlig zerschlagen und Alpha-02 war so traumatisiert und litt unter den widersprüchlichen Erinnerungen, dass er dem Klon-Wahnsinn verfiel und schließlich von Ailyn Vel erschossen wurde, die ihn mit ihrem Vater Boba Fett verwechselte. Vizslas Death Watch während der Klonkriege.
-      </p>
-
       <div class="flex">
         <p>
-          Unter dem Mandalorianer Pre Vizsla formierte sich während der Klonkriege eine neue Death Watch, die zunächst auf Seiten der Konföderation unabhängiger Systeme kämpfte und Mandalore erobern wollte. Ihre Mitglieder trugen das Symbol der alten Death Watch, benutzten aber Rüstungen, die sich mehr an denen der Wahren Mandalorianer orientierten. Nach dem mißglückten Versuch, republikanische Truppen nach Mandalore zu locken und die Death Watch als Befreier auftreten zu lassen, brach das Bündnis zwischen diesen und der KUS, sodass die Death Watch begann, ins All hinauszuziehen und zu plündern, wie die Death Watch Tor Vizslas vorher.
+          Jango wirkte, gemeinsam mit 75 weiteren Mandalorianern (viele davon alte Kampfgefährten oder Freunde von früher), an der Ausbildung der Klonarmee mit und übernahm persönlich die Ausbildung der Alpha ARCs, während sich die mandalorianischen Cuy'val Dar um die Eliteeinheiten der Republik-Kommandos kümmerten. Zur Ausbildung gehörte nicht nur die Kampfschulung, sondern auch die Vermittlung des mandalorianischen Erbes und der Kultur - so schrieb Jango traditionelle mandalorianische Schlachtgesänge wie das Vode An oder das Gra’tua Cuun um, um es an die Situation der Klonsoldaten anzupassen. Auch führte er das archaische Ritual Dha Werda Verda ein, das sich im Laufe des Krieges quer durch die ganze Armee verbreitete.
         </p>
-        <img class="image" src="../assets/images/geschichte/deathwatch1.jpg" alt="deathwatch" />
       </div>
+      <h2 id="klonkrieg">Klonkriege</h2>
 
-      <p>
-        Nach der Umwandlung der Galaktischen Republik in das Galaktische Imperium flohen viele Klone nach Mandalore und ließen sich in der Siedlung Kyrimorut nieder.
-      </p>
+      <div class="flex">
+        <img class="image" src="../assets/images/geschichte/Klon.webp" alt="klonkrieger">
+        <div>
+
+          <p>
+
+            In den Klonkriegen kämpfte auf diese Weise eine aus Millionen von mandalorianischen Klonen bestehende Armee auf Seiten der Republik gegen die Droiden der Separatisten. Diese waren jedoch nicht die einzigen Mandalorianer, die an den Klonkriegen teilnahmen. Einige der Cuy’val Dar-Ausbilder, wie Kal Skirata, traten ebenfalls in den Dienst der GAR, während auf der anderen Seite ein unerwarteter Gegenspieler erschien: Der "defekte" Alpha-ARC-Klon A-02 "Spar", der es geschafft hatte, der kaminoanischen Rekonditionierung zu entkommen und zu desertieren.
+          </p>
+          <p>
+            Aufgrund eines genetischen Defekts verfügte Spar über Erinnerungen von Jango Fett und war besessen von dem Gedanken, die Mandalorianischen Superkommandos wiederzubeleben. Er reiste nach Mandalore, wo er Freiwillige rekrutierte – darunter sogar ehemalige Mitglieder der "Death Watch" – und griff mit diesen schließlich auf Seiten der Separatisten in die Klonkriege ein. Er nannte sich Mandalore der Wiederbeleber. Seine Einheiten führten für die KUS Spezialoperationen und Blitzangriffe durch, zum Beispiel während der Zweiten Schlacht von Kamino. Der Krieg verlief für diese Mandalorianer jedoch nicht günstig: Sie wurden fast völlig zerschlagen und Alpha-02 war so traumatisiert und litt unter den widersprüchlichen Erinnerungen, dass er dem Klon-Wahnsinn verfiel und schließlich von Ailyn Vel erschossen wurde, die ihn mit ihrem Vater Boba Fett verwechselte. Vizslas Death Watch während der Klonkriege.
+          </p>
+
+          <p>
+            Unter dem Mandalorianer Pre Vizsla formierte sich während der Klonkriege eine neue Death Watch, die zunächst auf Seiten der Konföderation unabhängiger Systeme kämpfte und Mandalore erobern wollte. Ihre Mitglieder trugen das Symbol der alten Death Watch, benutzten aber Rüstungen, die sich mehr an denen der Wahren Mandalorianer orientierten. Nach dem mißglückten Versuch, republikanische Truppen nach Mandalore zu locken und die Death Watch als Befreier auftreten zu lassen, brach das Bündnis zwischen diesen und der KUS, sodass die Death Watch begann, ins All hinauszuziehen und zu plündern, wie die Death Watch Tor Vizslas vorher.
+          </p>
+        </div>
+        <div>
+          <p>
+            Nach der Umwandlung der Galaktischen Republik in das Galaktische Imperium flohen viele Klone nach Mandalore und ließen sich in der Siedlung Kyrimorut nieder.
+          </p>
+          <img class="image" src="../assets/images/geschichte/deathwatch1.webp" alt="deathwatch" />
+        </div>
+      </div>
 
       <h2 id="imp">Imperiale Ära</h2>
       <div class="flex">
-        <img class="image" src="../assets/images/geschichte/todessternII.jpg" alt="deathwatch" />
+        <img class="image" src="../assets/images/geschichte/todessternII.webp" alt="deathwatch" />
 
         <div>
           <p>

@@ -12,7 +12,7 @@
       <h4>Rechtliches</h4>
       <a href="/php/datenschutz.php">Datenschutzerklärung</a>
       <a href="/php/impressum.php">Impressum</a>
-      <a href="kontakt.php">Formular</a>
+      <a href="/php/kontakt.php">Formular</a>
     </div>
   </aside>
 </footer>

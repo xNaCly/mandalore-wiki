@@ -137,7 +137,7 @@
         <h3>Raumschiffe</h3>
         <div>
           <img class="image" src="./assets/images/slave1.webp" alt="slave_1">
-          <img class="image" src="./assets/images/rezorcrest.jpg" alt="razor_crest">
+          <img class="image" src="./assets/images/rezorcrest.webp" alt="razor_crest">
         </div>
         <span>
           Mandalorianer flogen oftmals ikonische, schwer bewaffnete und wendige Raumschiffe. Wie hier zum Beispiel das Raumschiff Jango Fetts und später Boba Fetts. Die Slave
