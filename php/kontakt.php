@@ -23,7 +23,7 @@
   <main class="container container-flex contact-container">
     <h1>Kontakt-formular</h1>
     <hr>
-    <form class="contact-formular" action="/php/kontakt-processor.php">
+    <form class="contact-formular" action="./kontakt-processor.php">
       <div>
         <label for="name">
           Name:
@@ -53,10 +53,12 @@
         </select>
       </div>
       <div>
-        <label for="box"><a href="/php/datenschutz.php">Datenschutzerklärung</a> akzeptiert:</label>
+        <label for="box"><a href="./datenschutz.php">Datenschutzerklärung</a> akzeptiert:</label>
         <input type="checkbox" required id="box" name="privacy" />
       </div>
-      <button type="submit">Absenden</button>
+      <div class="flex flex-column">
+        <button type="submit">Absenden</button>
+      </div>
     </form>
   </main>
   <?php

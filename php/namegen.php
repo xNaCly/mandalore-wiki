@@ -22,7 +22,7 @@
   ?>
   <main class="container container-flex contact-container">
     <h1>Spiel-formular</h1>
-    <form class="contact-formular" action="/php/namegen.php">
+    <form class="contact-formular" action="./namegen.php">
       <div>
         <label for="name">
           Name:
