@@ -217,7 +217,7 @@
           <img class="image" src="../assets/images/angriffderclonkrieger.webp" alt="angriff der klonkrieger">
         </div>
         <span>
-          Der zweite Film der Prequals <strong>(Angriff der Klonkrieger)</strong> hat besondere Signifikanz für das Auseinandersetzen des Jediordens mit den Mandalorianern, da hier Obi Wan Kenobi das erste Mal auf einen Mandalorianer namens <a href="https://jedipedia.fandom.com/wiki/Jango_Fett">Jango Fett</a> trifft als er diesen durch die Galaxie aufgrund eines Attentatversuches auf die Prinzessin Amidala von Naboo jagte. Dieser Mandalorianer stirbt im Laufe des Filmes und hinterlässt seinen identischen und genetisch unveränderten Sohn dessen Schiff und seine Rüstung.
+          Der zweite Film der Prequels <strong>Angriff der Klonkrieger</strong> hat besondere Signifikanz für das Auseinandersetzen des Jedi-Ordens mit den Mandalorianern, da hier Obi Wan Kenobi das erste Mal auf einen Mandalorianer namens <a href="https://jedipedia.fandom.com/wiki/Jango_Fett">Jango Fett</a> trifft als er diesen durch die Galaxie aufgrund eines Attentatversuches auf die Prinzessin Amidala von Naboo jagte. Dieser Mandalorianer stirbt im Laufe des Filmes und hinterlässt seinem identischen und genetisch unveränderten Sohn sowohl sein Schiff als auch seine Rüstung.
         </span>
       </article>
       <article class="card  bg-gray-700 gray-300">
@@ -225,7 +225,7 @@
           <img class="image" src="../assets/images/klonkriege.webp" alt="angriff der klonkrieger">
         </div>
         <span>
-          Die erste animierte Serie im Star Wars Universium erklärt politische Zusammenhänge bezüglich Mandalore und die kriegerische Vergangenheit sowie die terroristischen mandalorianischen Organisationen und der Machthunger der Mandalorianer. Hinzukommt, dass der Zuschauer die Korruption im Senat und auf Mandalore zu Gesicht bekommt. Sie thematisiert das Dilemma der Seperatisten und die Machtstrukturen der Mandalorianer sowie deren Verbissenheit. Außerdem sehen wir wie die Deathwatch von Count Dooku und später von Darth Maul benutzt werden.
+          Die erste animierte Serie im Star Wars Universium <strong>The Clone Wars</strong> erklärt politische Zusammenhänge bezüglich Mandalore und die kriegerische Vergangenheit sowie die terroristischen mandalorianischen Organisationen und der Machthunger der Mandalorianer. Hinzukommt, dass der Zuschauer die Korruption im Senat und auf Mandalore zu Gesicht bekommt. Sie thematisiert das Dilemma der Seperatisten und die Machtstrukturen der Mandalorianer sowie deren Verbissenheit. Außerdem sehen wir wie die Deathwatch von Count Dooku und später von Darth Maul benutzt werden.
         </span>
       </article>
       <article class="card  bg-gray-700 gray-300">
@@ -233,7 +233,7 @@
           <img class="image" src="../assets/images/rebels.webp" alt="rebels">
         </div>
         <span>
-          Die oftmals harsch kritisierte Serie Star Wars Rebels beleuchtet mehrere Folgen lang die Beziehung der Clans von Mandalore zum Imperium, die Nacht der tausend Tränen und die Konflikte der Clans untereinander. Rebels geht besonders auf Clan Vren ein und zeigt wie Zerrissen die Clanmitglieder sind und wie sehr sie unter der Belagerung des Imperiums leiden. Besonders interessant ist auch der Zusammenschluss verschiedener Clans zum Vereinigen von Mandalore zuerst unter Sabine Vren und Später unter Bo Kataan. Zudem werden Themen angesprochen wie das Darksaber und dessen Entstehungsgeschichte.
+          Die oftmals harsch kritisierte Serie <strong>Star Wars Rebels</strong> beleuchtet mehrere Folgen lang die Beziehung der Clans von Mandalore zum Imperium, die Nacht der tausend Tränen und die Konflikte der Clans untereinander. Rebels geht besonders auf Clan Vren ein und zeigt wie Zerrissen die Clanmitglieder sind und wie sehr sie unter der Belagerung des Imperiums leiden. Besonders interessant ist auch der Zusammenschluss verschiedener Clans zum Vereinigen von Mandalore zuerst unter Sabine Vren und Später unter Bo Kataan. Zudem werden Themen angesprochen wie das Darksaber und dessen Entstehungsgeschichte.
         </span>
       </article>
       <article class="card  bg-gray-700 gray-300">
@@ -248,14 +248,13 @@
       <article class="card bg-gray-700 gray-300">
         <img class="image" src="../assets/images/bobafett.webp" alt="boba fett">
         <span>
-          Das Book of Boba Fett handelt grundsätzlich von Boba Fetts Geschichte, d.h. wie er den Sarlac überlebte und mit den Sandmenschen zusammenlebte.
-          Wirklich relevant für die Mandalorianische Geschichte sind hier nur Ausschnitte, wie Bobas Rüstung, das für Mandalorianer typische Jagen und Zähmen von wilden Tieren und Kampfszenen die bestimmte Gadgets darstellen, wie z.B.: Whistling Arrows, JetPacks und Thermaldetonatoren.
+          <strong>The Book of Boba Fett</strong> handelt grundsätzlich von Boba Fetts Geschichte, d.h. wie er den Sarlac überlebte und mit den Sandmenschen zusammenlebte.
+          Wirklich relevant für die Mandalorianische Geschichte sind hier nur Ausschnitte, wie Bobas Rüstung, das für Mandalorianer typische Jagen und Zähmen von wilden Tieren sowie Kampfszenen die bestimmte Gadgets darstellen, wie z.B.: Whistling Arrows, JetPacks und Thermaldetonatoren.
         </span>
       </article>
     </div>
   </div>
   <?php
   include "templates/footer.php";
-  echo gen_footer(__FILE__);
   ?>
 </body>
