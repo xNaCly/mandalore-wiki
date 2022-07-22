@@ -25,17 +25,22 @@
     <h2>Quelle:</h2>
     <h3>Jedi Fandom:</h3>
     <div class="card">
-      <ul>
-        <li>
-          <a href="https://jedipedia.fandom.com/wiki/Mandalorianer">Mandalorianer</a>
-        </li>
-        <li>
-          <a href="https://jedipedia.fandom.com/wiki/Mandalore">Mandalore</a>
-        </li>
-        <li>
-          <a href="https://jedipedia.fandom.com/wiki/Mandalorianischer_Clan">Mandalorianische Clans</a>
-        </li>
-      </ul>
+      <details>
+        <summary>
+          Quellen
+        </summary>
+        <ul>
+          <li>
+            <a href="https://jedipedia.fandom.com/wiki/Mandalorianer">Mandalorianer</a>
+          </li>
+          <li>
+            <a href="https://jedipedia.fandom.com/wiki/Mandalore">Mandalore</a>
+          </li>
+          <li>
+            <a href="https://jedipedia.fandom.com/wiki/Mandalorianischer_Clan">Mandalorianische Clans</a>
+          </li>
+        </ul>
+      </details>
     </div>
     <div class="flex flex-column">
       <h2>Videos:</h2>

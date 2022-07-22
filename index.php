@@ -2,9 +2,9 @@
 <html lang="de">
 
 <head>
-
   <link rel='stylesheet' href='css/style.css' type='text/css'>
   <link rel='stylesheet' href='css/fonts.css' type='text/css'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
   <link rel='stylesheet' href='https://use.fontawesome.com/releases/v6.1.1/css/all.css' />
   <?php
   include "./php/util/util.php";
