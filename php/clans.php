@@ -77,6 +77,7 @@
   </div>
   <?php
   include "templates/footer.php";
+  echo gen_footer(__FILE__);
   ?>
 </body>
 

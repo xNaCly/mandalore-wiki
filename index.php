@@ -167,6 +167,7 @@
   </main>
   <?php
   include "./php/templates/footer.php";
+  echo gen_footer(__FILE__);
   ?>
 </body>
 
