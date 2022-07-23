@@ -28,15 +28,18 @@
           Zeitleiste der für Mandalore wichtigen Filme und Serien im <em>Star Wars</em> Universum
         </caption>
         <thead>
+<!-- Errors found by HTML validator cant be fixed due to them destroying the table structure of the timeline -->
+
+<!-- Table cell spans past the end of its row group established by a “thead” element; clipped to the end of the row group -->
+<!-- Table columns in range 45…50 established by element “th” have no cells beginning in them. -->
           <tr>
             <th class="timeline-heading" colspan="2" rowspan="3">Filme und Serien</th>
-            <th class="timeline-heading" colspan="46">Fiktive Zeitrechnung in Jahren</th>
+            <th class="timeline-heading" colspan="48">Fiktive Zeitrechnung in Jahren</th>
           </tr>
           <tr>
             <th class="timeline-heading" colspan="26">Vor der Schlacht um Yavin 4</th>
             <th class="timeline-heading" colspan="18">Nach der Schlacht um Yavin 4</th>
           </tr>
-
         </thead>
         <tbody>
           <tr>
