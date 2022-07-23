@@ -4,6 +4,12 @@ This repo was created during the 'Webengineering' module in the second semester 
 website about a real topic using php, css and html. Several tags and other stuff were required
 [see here](https://github.com/xNaCly/mandalore-wiki/issues/6).
 
+Devs:
+ - https://github.com/derPhilosoff
+ - https://github.com/Mar-Kno
+ - https://github.com/ellirynbw
+ - https://github.com/noschnosch
+
 ## Start locally
 
 1. cloning
